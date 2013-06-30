@@ -1,0 +1,8 @@
+available:
+  name: Available
+
+pending:
+  name: Pending
+
+shipped:
+  name: Shipped

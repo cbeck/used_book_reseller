@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  max_ship_time: 1
+
+two:
+  name: MyString
+  max_ship_time: 1

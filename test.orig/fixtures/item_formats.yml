@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+dvd:
+  id: 1
+  name: DVD
+paperback:
+  id: 2
+  name: Paperback

@@ -1,0 +1,12 @@
+<div id="detail_header" class="box green box two_thirds_span left">
+  <h2><%= h @product.title %></h2>
+  <div id="detail_header_content" class="box_interior">
+    <%= render :partial => "basic_info", :locals => {:show => !@product.available?} %>
+  </div>
+</div>
+
+<%= render :partial => "seller", :object => @product.seller %>
+
+<%= render :partial => "product_images", :locals => {:product => @product} %>
+
+

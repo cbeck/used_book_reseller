@@ -1,0 +1,12 @@
+<h1>Editing feedback</h1>
+
+<%= error_messages_for :feedback %>
+
+<% form_for(:feedback, :url => feedback_path(:line_item_id => @line_item, :id => @feedback), :html => { :method => :put }) do |f| %>
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', feedback_path(:line_item_id => @line_item, :id => @feedback) %> |
+<%= link_to 'Back', feedback_path(:line_item_id => @line_item) %>

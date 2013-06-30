@@ -1,0 +1,14 @@
+<%= render :partial => @seller %>
+
+<div id="show_actions" class="box green third_span right">
+  <h2>What Can You Do Here?</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Edit This Information", edit_member_seller_path(current_member, @seller), :class => "green_button long" %></li>    
+      <li class="bump_down"><%= link_to "Go Back to My Account", account_path %></li>      
+    </ul>    
+  </div>
+</div>
+
+
+

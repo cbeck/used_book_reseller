@@ -1,0 +1,19 @@
+<h3>Account Features</h3>
+<p class="form_link"><%= link_to "I want to add a new account feature", new_admin_account_feature_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @account_features.empty? %>
+        <p>There are no account features for Schoolade thus far.</p>
+      <% else %>  
+        <ul id="account_features" class="listing">  
+          <%= render :partial => "account_feature", :collection => @account_features %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<%= sortable_element 'account_features',
+{:url => sort_admin_account_features_path, :method => :post}
+%>

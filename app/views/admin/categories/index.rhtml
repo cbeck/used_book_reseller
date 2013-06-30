@@ -1,0 +1,26 @@
+<h3>Categories</h3>
+<p class="form_link"><%= link_to "I want to add a new category", new_admin_category_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @categories.empty? %>
+        <p>There are no categories on Schoolade thus far.</p>
+      <% else %>  
+        <ul class="listing">  
+          <%= render :partial => "category", :collection => @categories %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<div class="form_right helpful">
+
+  <p>Categories are used to organize products.</p>
+
+
+</div>
+
+<div class="clear_fix"></div>
+
+</div>

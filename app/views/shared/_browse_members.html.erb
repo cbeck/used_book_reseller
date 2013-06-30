@@ -1,0 +1,15 @@
+<h4>Browse our Members</h4>
+<p>~ By Alias ~</p>				
+<ul>
+  <li><%= link_to "ALL", {:action => "index", :id => nil} %></li>
+  <% @letters.each do |letter| %>
+    <% letter_class = (letter == @initial) ? "letter_current" : "letter" %>
+    <li><%= link_to letter, {:action => "index", :id => letter}, :class => letter_class %></li>
+  <% end %>
+</ul>
+<p class="spacer">~ or by ~</p>
+<ul>
+  <li><%= link_to "Homeschool Method", :controller => "categories", :action => "index", :filter => "publisher_name" %></li>
+  <li><%= link_to "Some other filter", :controller => "categories", :action => "index", :filter => "price" %></li>
+  <li><%= link_to "Most Recent", :controller => "categories", :action => "index", :filter => "id" %></li>
+</ul>

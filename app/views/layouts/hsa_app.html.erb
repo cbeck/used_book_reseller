@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<% @cname = controller.controller_name 
+   @aname = controller.action_name -%>
+  <head>
+    <%= render :partial => "shared/header"%>
+		<%= yield :page_scripts -%> 
+    <%= yield :page_css -%>
+  </head>
+  <body>
+    <% unless is_ie_6? %>
+     <!-- begin div.ajax-notice -->
+     
+     	<div id="flasherrors" style="display:none;">
+     	</div>
+     	<div id="flashnotice" style="display:none;">
+     	</div>
+     	<!-- end div.ajax-notice -->
+      <%= show_ajax_flash_messages %>
+    <% end %>
+    <div id="canvas_top">
+        <div id="header">
+          <h1 id="logo">Homeschool Apple</h1>
+          <% unless @no_tabs %>
+    			<ul id="main_nav" class="navigation">							
+    				<li id="home_tab"><%= link_to "Home", home_url -%></li>
+    				<li id="shop_tab"><%= link_to "Shop", shop_url -%></li>			
+    				<li id="sell_tab"><%= link_to "Sell", products_url -%></li>
+    				<!--><li id="interact_tab"><%= link_to "Interact", interact_url -%></li>
+    				<li id="share_tab"><%= link_to "Share", share_url -%></li>-->	
+          </ul>
+          <% end %>
+          <ul id="sub_nav" class="navigation">
+            <%= render_sub_nav(@sub_nav_items, @current_item) %>
+          </ul>          
+          <ul id="user_nav" class="navigation">
+            <% unless @no_links %>
+              <% if logged_in?%>
+                <% if current_member.is_admin? %>
+                  <li id='admin_nav_link' class="<%= 'current' if @current_item == 'admin' -%>"><%= link_to 'Admin', admin_url%></li>
+                <% end %>
+                <li id="account_nav_link" class="<%= 'current' if @current_item == 'my_account' -%>"><%= link_to "My Account", account_url -%></li>
+                <li id="contact_nav_link"><%= link_to "Contact", contact_url -%></li>
+                <li id="logout_nav_link"><%= link_to "Logout", logout_url -%></li>
+              <% else %>
+                <li id="sign_up_nav_link"><%= link_to "Sign Up", signup_url %></li>
+                <li id="login_nav_link"><%= link_to "Login", login_url(:nav => true) -%></li>
+              <% end %>
+            <% end %>
+          </ul>          
+					<% unless @cart.nil? %>
+          	<%= hidden_div_if(@cart.empty?, :id => "cart", 
+								:onclick => "javascript:location.href='#{order_path(@cart)}';") %>	
+            <%= render :partial => "shared/cart"%>
+					<% end %>
+          </div>
+        </div>	        
+      </div>
+    <div id="canvas_middle">        
+        <div id="content">
+          <% if is_ie_6? %>
+            <% if flash[:notice] -%> 
+              <div id="notice"><%= flash[:notice] %></div> 
+            <% end -%>
+          <% end %>
+          <%= yield %>
+          <div class="clear_fix">&nbsp;</div>
+        </div>        
+      </div>
+    <div id="canvas_bottom">
+        <%= render :partial => "shared/footer"%>
+    </div>
+   	
+		<%= google_analytics('UA-1147482-11') %>
+  </body>
+  <script type="text/javascript">
+  	<%= "Application.activate_tab('#{@active_tab}');" unless @active_tab.blank? %>
+  </script>
+
+</html>

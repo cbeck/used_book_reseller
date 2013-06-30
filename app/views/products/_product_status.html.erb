@@ -1,0 +1,5 @@
+<% if @product.held? %>
+<p>Someone has placed your item in their shopping cart!</p>
+<% else %>
+<p><%= link_to_remote @product.status.name, :url => toggle_status_product_path(@product), :html => {:class => "green_button long #{@product.status.code_name}"} %></p>
+<% end %>

@@ -1,0 +1,20 @@
+<% 
+  show ||= false
+  no_cart ||= false
+  path = (show)? product_path(product) : detail_product_path(product) 
+%>
+  <td>  
+  <%= lightbox_to(product.image_url, product.full_image_url, "#{h(product.title)}", "thumb product") %>
+  </td>
+  <td>    
+    <p class="title"><%= link_to h(product.title), path %></p>
+    <p class="details"><%= "#{link_to h(product.publisher_name), search_path(:q => product.publisher_name)}," unless product.publisher_name.blank? %><%= " #{link_to h(product.author), search_path(:q => product.author)}," unless product.author.blank? %><%= " #{product.item_format.name}," unless product.item_format.nil? %> <%= product.condition.description %>. </p>
+    <p class="details"><%= link_to "Offered by #{h(product.seller.name)}.", profile_seller_path(product.seller) unless show %> Ships in <%= product.seller.shipping_term.name %></p>
+    <% unless no_cart %>
+    <div class="description">
+      <%= textilize(product.short_description) %> 
+      <p class="clear_fix"><%= link_to "read more", path %></p>
+    </div>
+    <% end %>
+ </td>
+    

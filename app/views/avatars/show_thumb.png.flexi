@@ -1,0 +1,3 @@
+@avatar.operate do |image|
+  image.resize '75x75'
+end

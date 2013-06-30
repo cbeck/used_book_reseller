@@ -1,0 +1,14 @@
+<h3>Edit Publisher</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @publisher] %></p>
+
+<% form_for [:admin, @publisher] do |f| %>
+    <%= error_messages_for :publisher %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Publisher" %>
+  </div>
+  
+ 
+<% end %>

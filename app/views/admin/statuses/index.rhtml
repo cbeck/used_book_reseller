@@ -1,0 +1,26 @@
+<h3>Statuses</h3>
+<p class="form_link"><%= link_to "I want to add a new status", new_admin_status_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @statuses.empty? %>
+        <p>There are no statuses on Schoolade thus far.</p>
+      <% else %>  
+        <ul class="listing">  
+          <%= render :partial => "status", :collection => @statuses %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<div class="form_right helpful">
+  
+  <p>Statuses are used to help manage the order process.</p>
+  
+
+</div>
+
+<div class="clear_fix"></div>
+
+</div>

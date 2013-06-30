@@ -1,0 +1,14 @@
+<tr id="<%= dom_id(order) -%>" class="row_item <%= cycle("odd", "even")-%>">
+  <td>  
+  <%= link_to(image_tag(order.line_items.first.product.image_url, :class => "thumb", :title => h(order.line_items.first.product.title)), order_path(order))%>
+  </td>
+  <td>    
+    <p class="title"><%= link_to  "Order Number #{order.id}", order_path(order) %></p>
+    <p class="details"><%= "Placed #{time_ago_in_words(order.created_at)} ago" %>, Shipped to <%=order.ship_to %> at <%= order.ship_address_line_1 %>.</p>
+    <p class="description"><%= order.line_items.collect {|li| li.product.title}.to_sentence %></p>
+ </td>
+  <td>
+    <p class="product_price"><%= number_to_currency(order.line_items.sum(:total_cents).to_f/100) %></p>
+  </td>
+</tr>
+

@@ -1,0 +1,67 @@
+<div id="home_search" class="box green_gray two_thirds_span left">
+  <div id="filters">
+   <%=link_to 'shop by browsing', shop_path %>
+  </div>
+  <h2>Search for Curriculum</h2>
+  <div id="home_search_content" class="box_interior">
+    <%= render :partial => "shared/search_box"%>
+  </div>
+</div>
+<div id="home_sell" class="box green_gray third_span right">
+  <h2>Sell My Stuff</h2>
+  <div id="home_sell_content" class="box_interior">
+    <% if current_member.seller.blank? %>
+      <%= link_to "Get Started Now", products_path, :class => "green_button long" %>
+      <p>It's Easy! Try it for FREE!</p>
+    <% else %>
+      <%= link_to "Add A New Product", products_path, :class => "green_button long" %>
+    <% end %>
+  </div>
+</div>
+
+<div id="home_latest" class="box half_span left">
+  <h2>The Latest</h2>
+  <div id="reloadable" class="box_interior">
+    <%= render :partial => "shared/small_product", :locals => {:product => Product.next_available }%>
+  </div>
+</div>
+
+<div id="home_ship" class="box half_span right">
+  <% if current_member.seller.nil? %>
+    <h2>Items I Am Waiting For</h2>
+    <div id="home_ship_content" class="box_interior">
+      <% if current_member.pending_purchases.blank? %>
+        <p>You are not waiting on any items to be shipped at this time.</p>
+      <% else %>
+       <table>
+         <%= render :partial => "unshipped_item", :collection => current_member.pending_purchases[0,2] %>
+        </table>
+         <p class="clear_fix text_right bump_down"><%= link_to "see all", unshipped_line_items_path %></p>
+      <% end %>
+    </div>
+  <% else %> 
+    <h2>Items I Need To Ship</h2>
+    <div id="home_ship_content" class="box_interior">
+      <% if current_member.unshipped_items.blank? %>
+       <p>You have no items awaiting shipment. Good job!</p>
+      <% else %>
+        <table>
+          <%= render :partial => "unshipped_item", :collection => current_member.unshipped_items[0,2], :locals => {:seller => true} %>
+        </table>
+         <p class="clear_fix text_right bump_down"><%= link_to "see all", unshipped_line_items_path %></p>
+      <% end %>     
+    </div>
+  <% end %>  
+</div>
+
+
+
+
+
+<%= load_lightbox %>
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<h1>Editing shipping_term</h1>
+
+<% form_for(@shipping_term) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :max_ship_time %><br />
+    <%= f.text_field :max_ship_time %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @shipping_term %> |
+<%= link_to 'Back', shipping_terms_path %>

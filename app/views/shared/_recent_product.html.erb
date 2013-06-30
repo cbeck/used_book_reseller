@@ -1,0 +1,11 @@
+<li class="recent_product">
+  <div>
+    <p><%= lightbox_to(recent_product.image_url, recent_product.full_image_url, "#{h(recent_product.title)}", "product", "recent_products") %></p>
+    <% if logged_in? %>
+      <p><%= link_to_remote(render_price(recent_product.offer_price), :url => product_line_items_url(recent_product), :html => {:class => "product_price"} )%></p>
+      <p class="details button"><%= link_to_remote("Add to Cart", :url => product_line_items_url(recent_product))%></p>
+    <% else %>      
+      <p><%= render_price(recent_product.offer_price)%></p>
+    <% end %>
+  </div>
+</li>

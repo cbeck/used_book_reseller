@@ -1,0 +1,18 @@
+<li id="<%=order.id%>">
+<table>
+  <tr id="order_<%=order.id%>" valign="top">
+  <td width="150px">
+    <%= time_ago_in_words(order.created_at) %> ago
+  </td>
+  <td width="300px">
+    <p><strong><%= link_to  "Order Number #{order.id}", admin_order_path(order) %></strong></p>
+    <p class="item_details">Shipped to <%=order.ship_to %> at <%= order.ship_address_line_1 %></p>
+    <p><%= order.line_items.collect {|li| li.product.title}.to_sentence %></p>
+  </td>
+  <td width="50px" align="right">
+    <p><span class="price"><%= order.total_price.format %></span></p>
+  </td> 
+  </tr>
+
+</table>
+</li>

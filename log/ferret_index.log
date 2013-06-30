@@ -1,0 +1,1360 @@
+# Logfile created on Thu Sep 11 23:03:02 -0400 2008 by /
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+rebuild index: [Product(id: integer, title: string, description: text, price: float, condition: string, created_at: datetime, updated_at: datetime, publish_at: datetime, published: boolean, discount_desc: string, discount_price: float, quantity_avail: integer, isbn: string, internal_id: string, status_id: integer, seller_id: integer, item_format_id: integer, publisher_name: string)]
+reindexing model Product
+reindex model Product : 100.00% complete : 0.46 secs to finish
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody description:woody title:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody description:woody title:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody description:woody title:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:motley title:motley description:motley
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:motley title:motley description:motley
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:motley title:motley description:motley
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+rebuild index: [Product(id: integer, title: string, description: text, condition: string, created_at: datetime, updated_at: datetime, publish_at: datetime, published: boolean, discount_desc: string, quantity_avail: integer, isbn: string, internal_id: string, status_id: integer, seller_id: integer, item_format_id: integer, publisher_name: string, author: string, small_image_url: string, medium_image_url: string, large_image_url: string, offer_cents: integer, retail_cents: integer, currency: string)]
+reindexing model Product
+reindex model Product : 625.00% complete : 0.12 secs to finish
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:math description:math title:math
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:mathematics description:mathematics title:mathematics
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:book description:book title:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:crackers description:crackers publisher_name:crackers
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:crackers description:crackers publisher_name:crackers
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:mysql description:mysql publisher_name:mysql
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:cheese description:cheese publisher_name:cheese
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:bud description:bud publisher_name:bud
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody title:woody description:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:prentice description:prentice publisher_name:prentice) +(title:hall description:hall publisher_name:hall)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:wadsworth description:wadsworth publisher_name:wadsworth) +(title:publishing description:publishing publisher_name:publishing)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:barron description:barron publisher_name:barron) +(title:educational description:educational publisher_name:educational) +(title:series description:series publisher_name:series)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: 
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:cheese description:cheese publisher_name:cheese
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:stinky description:stinky publisher_name:stinky
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:stinky description:stinky publisher_name:stinky
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:stinky description:stinky publisher_name:stinky
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:book description:book publisher_name:book
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:books description:books publisher_name:books
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: title:books description:books publisher_name:books
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:rh description:rh title:rh) +(publisher_name:disney description:disney title:disney)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+rebuild index: [Product(id: integer, title: string, description: text, condition_comments: string, created_at: datetime, updated_at: datetime, publish_at: datetime, published: boolean, discount_desc: string, quantity_avail: integer, isbn: string, internal_id: string, status_id: integer, seller_id: integer, item_format_id: integer, publisher_name: string, author: string, small_image_url: string, medium_image_url: string, large_image_url: string, offer_cents: integer, retail_cents: integer, currency: string, weight: integer, held_at: datetime, held_by: integer, condition_id: integer, nonsmoking_home: boolean, no_pets_in_home: boolean, use_amazon_image: boolean)]
+reindexing model Product
+reindex model Product : 400.00% complete : 1.49 secs to finish
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:rh description:rh title:rh) +(publisher_name:disney description:disney title:disney)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:rh/disney description:rh/disney title:rh/disney
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:disney description:disney title:disney
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:buzz description:buzz title:buzz
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:rh description:rh title:rh) +(publisher_name:disney description:disney title:disney)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:woody description:woody title:woody
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:gail description:gail author:gail title:gail) +(publisher_name:carson description:carson author:carson title:carson) +(publisher_name:levine description:levine author:levine title:levine)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: publisher_name:longman description:longman author:longman title:longman
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:x description:x author:x title:x) +(publisher_name:j description:j author:j title:j) +(publisher_name:kennedy description:kennedy author:kennedy title:kennedy)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+rebuild index: [Freecycle(id: integer, name: string, description: text, member_id: integer, metro_area_id: integer, created_at: datetime, updated_at: datetime)]
+reindexing model Freecycle
+reindex model Freecycle : 150.00% complete : 0.06 secs to finish
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cat description:cat
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cat description:cat
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cat description:cat
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cat description:cat
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cat description:cat
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:15 description:15
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:15 description:15
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:15 description:15
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:15 description:15
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:monkey description:monkey
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:free description:free
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:free description:free
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:cats description:cats
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:free description:free
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+query: name:free description:free
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/freecycle
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(publisher_name:rh title:rh description:rh author:rh) +(publisher_name:disney title:disney description:disney author:disney)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:ecce publisher_name:ecce description:ecce author:ecce) +(title:homo publisher_name:homo description:homo author:homo) +(title:press publisher_name:press description:press author:press)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:maureen publisher_name:maureen description:maureen author:maureen) +(title:wittmann publisher_name:wittmann description:wittmann author:wittmann)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:maureen publisher_name:maureen description:maureen author:maureen) +(title:wittmann publisher_name:wittmann description:wittmann author:wittmann)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+query: +(title:hal publisher_name:hal description:hal author:hal) +(title:leonard publisher_name:leonard description:leonard author:leonard) +(title:corporation publisher_name:corporation description:corporation author:corporation)
+stored_fields: 
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product
+LocalIndex: ensure_index_exists at /Users/chrisbeck/Documents/Projects/noodle/school-ade/school-ade.com/index/development/product

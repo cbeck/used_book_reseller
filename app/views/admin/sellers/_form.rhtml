@@ -1,0 +1,50 @@
+<div class="user_form">
+  <div class="form_left">
+   
+   <h4>Basic Seller Info:</h4>
+   <p><label for="seller_name">Name You Will Be Selling Under</label><br/>
+        <%= form.text_field :name  %></p>
+   <p><label for="seller_email">Email Address for Sale Notifications</label><br/>
+        <%= form.text_field :email  %></p>
+   <p><label for="seller_phone">Phone Number</label><br/>
+        <%= form.text_field :phone  %></p>
+        
+    <h4>Address To Send Checks To:</h4>
+
+    <p><label for="seller_address_line_1">Address Line 1</label><br/>
+        <%= form.text_field :address_line_1  %></p>
+    
+    <p><label for="seller_address_line_2">Address Line 2</label><br/>
+        <%= form.text_field :address_line_2  %></p>
+    
+    <p><label for="seller_city">City</label><br/>
+        <%= form.text_field :city  %></p>
+            
+    <p><label for="seller_state">State</label><br/>
+        <%= form.text_field :state  %></p>
+
+    <p><label for="seller_zip">Postal Code</label><br/>
+        <%= form.text_field :zip  %></p>
+    
+    <p><label for="seller_country">Country</label><br/>
+        <%= form.text_field :country  %></p>
+    
+    <h4>PayPal Account Info:</h4>
+
+    <p><label for="seller_pay_pal_id">PayPal Account Email Address</label><br/>
+        <%= form.text_field :pay_pal_id %></p>
+    
+  </div>  
+  
+  <div class="form_right protected">
+    <p>Your information is safe with us.  We will never sell your email address or phone number to any third-parties.</p>
+    <p>Using PayPal for your payment address will allow us to pay you for your sales more quickly that by check.  By using PayPal,
+      we will be able to electronically transmit your payment to your account within a few days of the sale.</p>  
+      <p>We do not have
+      access to any of your bank information: that is all kept secure by PayPal. There is a small fee charged by PayPal for 
+      use of this service.  For more information, visit <%= link_to "PayPal.com", "http://www.paypal.com" %>.</p>
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>

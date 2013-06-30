@@ -1,0 +1,11 @@
+super_user:
+  user_id: 1
+  role_id: 1
+  
+store_owner:
+  user_id: 2
+  role_id: 2
+  
+new_store:
+  user_id: 2
+  role_id: 3

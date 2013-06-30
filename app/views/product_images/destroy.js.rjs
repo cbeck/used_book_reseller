@@ -1,0 +1,2 @@
+show_ajax_flash_messages({},page)
+page[dom_id(@product_image)].visual_effect :fade

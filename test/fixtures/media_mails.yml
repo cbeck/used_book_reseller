@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  weight: 1
+  rate_cents: 1
+  currency: MyString
+
+two:
+  weight: 1
+  rate_cents: 1
+  currency: MyString

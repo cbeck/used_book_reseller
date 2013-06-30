@@ -1,0 +1,8 @@
+<% for column in Account.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @account.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>

@@ -1,0 +1,21 @@
+<h3>Account Feature Information</h3>
+
+<p class="form_link"><%= link_to 'Show me all account features', admin_account_features_path %> | <%= link_to 'I want to edit this information', edit_admin_account_feature_path(@account_feature) %> | <%= link_to 'Delete this account feature', admin_account_feature_path(@account_feature), :confirm => 'Are you sure?', :method => :delete %></p>
+
+<div class="member_form">
+  <div class="form_left">
+    
+   <h4>Basic Information</h4>
+   
+   <p>Name: <%= @account_feature.name  %></p>
+   <p>Description: <%= @account_feature.description%></p>
+   
+  </div>  
+  
+ 
+ 
+  
+  
+  <div class="clear_fix"></div>
+    
+</div>

@@ -1,0 +1,24 @@
+<tr id="<%= dom_id(line_item) -%>" class="row_item <%= cycle("odd", "even")-%>">
+  <td> 
+    <%= link_to(image_tag(line_item.product.image_url, :class => "thumb product", :title => "#{h(line_item.product.title)}"), buyer_line_item_path(line_item))%> 
+  </td>
+  <td>    
+    <p class="title"><%= link_to  h(line_item.product.title), buyer_line_item_path(line_item) %></p>
+    <p class="details">Purchased on <%= line_item.order.created_at %>, Order Reference #: <%= "#{line_item.order.id}-#{line_item.id}" %></p>
+    <p class="details">Sold by <%= link_to line_item.product.seller.name, profile_seller_path(line_item.product.seller) %></p>
+    <p class="description bump_down">
+       <% if line_item.has_feedback? %>
+          You gave this seller a <%= line_item.feedback.rating %> out of 5. <br/>
+          Your comments: <%= line_item.feedback.comment %>
+        <% else %>
+          <%= link_to "Please leave Seller Feedback", buyer_line_item_path(line_item) %> for this item. Your opinion matters!
+        <% end %>
+    </p>
+ </td>
+  <td>
+    <p class="product_price"><%= line_item.total_price.format %></p>
+    <p class="details button"><%= line_item.quantity %> sold</p>
+  </td>
+</tr>
+
+

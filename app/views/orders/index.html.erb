@@ -1,0 +1,30 @@
+<div id="order_purchases" class="box full_span">
+  <h2>My Purchases</h2>
+  <div id="order_purchases_content" class="box_interior space_out">
+    <% if @orders.empty? %>
+     <p>You have not purchased anything yet, or you have not logged in.</p>
+     <p>You are not required to register or log in in order to purchase items on Homeschool Apple. However, 
+     registering as a valued member has it's benefits.</p>
+     <p>As a registered member, you will be able to:</p>
+     <ul class="list normal bump_down">
+      <li>View and track all of your purchases.</li>
+      <li>Leave feedback on your purchases</li>
+      <li>Interact with others in our soon-to-come social network of homeschoolers</li>
+      <li>And best of all... make money by selling your own used, new and self-published curriculum (self-publishing coming soon)!</li>
+    </ul>
+    <p class="bump_down"><%= link_to "Join our community today", signup_path %> and help us make Homeschool Apple the best place to buy, sell and connect with other homeschoolers. It's FREE!</p>
+    <p><%= link_to "Not interested in joining today? No worries! Click here to start shopping.", shop_path %></p>
+    <% else %>
+      <table>
+        <%= render :partial => @orders %>
+      </table>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+

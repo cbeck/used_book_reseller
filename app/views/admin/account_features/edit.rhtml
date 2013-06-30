@@ -1,0 +1,14 @@
+<h3>Edit Account Feature</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @account_feature] %></p>
+
+<% form_for [:admin, @account_feature] do |f| %>
+    <%= error_messages_for :account_feature %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Account Feature" %>
+  </div>
+  
+ 
+<% end %>

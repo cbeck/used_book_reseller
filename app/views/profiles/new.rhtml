@@ -1,0 +1,20 @@
+<h3>Create My Profile</h3>
+<p class="form_link"><%= link_to "I changed my mind - I am not ready to share this info yet.", member_path(current_member) %></p>
+<p>Creating a profile on Schoolade allows you to more easily find other members with the same interests and profiles as you!  Fill out this form
+  to the extent that you are comfortable.  Required fields are marked with an asterisk.</p>
+  
+
+<% form_for [current_member, @profile] do |f| %>
+    <%= error_messages_for :profile %>
+
+    <%= render :partial => "form", :object => f %>
+  <br/>
+  <div class="form_submit clear_fix">
+  <%= submit_tag "Create" %>
+  </div>
+  
+ 
+<% end %>
+
+
+

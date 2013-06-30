@@ -1,0 +1,18 @@
+<table>
+  <tr>
+  <% for column in Seller.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for seller in @sellers %>
+  <tr> 
+  <% for column in Seller.content_columns %>
+    <td><%=h seller.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', seller_path(seller) %></td>
+    <td><%= link_to 'Edit', edit_seller_path(seller) %></td>
+    <td><%= link_to 'Destroy', seller_path(seller), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,25 @@
+<h2>No Account?</h2>
+<div id="signup_link_content" class="box_interior">
+  <div class="left half">
+    <p>No account yet? Signing up is <span class="emphasized">FREE</span> and takes less than 30 seconds.</p>
+    <p class="bump_down">Also, we will be starting a new Giveaway <span class="emphasized">TODAY!</span> Details are coming soon.</p>
+    <p class="bump_down"><%= link_to "Sign Up", signup_path, :class => "green_button"%></p>
+  </div>
+  <div class="right bump_left">
+    <% form_tag sessions_path, :id => 'login_form' do %>
+      <p><%= label :session, :login, "My Login" %><br/>
+      <%= text_field_tag :login %></p>
+		
+      <p><%= label :session, :password, "Password" %><br/>
+      <%= password_field_tag 'password' %></p>
+    
+      <p class="bump_down"><%= submit_tag "Login" %></p>
+    
+      <p id="forgot_password" class="bump_down">
+  			<%=link_to 'Forgot your password?', forgot_password_path %>
+  		</p>
+    
+    <% end %>
+  </div>
+ <p class="clearfix">&nbsp;</p> 
+</div>

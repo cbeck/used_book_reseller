@@ -1,0 +1,8 @@
+<h3>Login Box</h3>
+<div id="login_area">
+  <% if logged_in? -%>
+     <%= render(:partial => "shared/logged_in") %>            
+  <% else -%>
+      <%= render(:partial => "shared/login_form") %>
+  <% end -%>
+</div>

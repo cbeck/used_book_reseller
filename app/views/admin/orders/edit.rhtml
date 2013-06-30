@@ -1,0 +1,11 @@
+<h3>Edit Order</h3>
+
+<p class="form_link"><%= link_to "I changed my mind... Cancel this edit!", [:admin, @order] %></p>
+
+<% form_for [:admin, @order] do |f| %>
+  <%= render :partial => "form", :object => f %>
+  <div class="form_submit">
+   <%= submit_tag "Edit this Order" %>
+   </div>
+<% end %>
+

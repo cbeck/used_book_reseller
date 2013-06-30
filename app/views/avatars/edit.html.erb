@@ -1,0 +1,40 @@
+<h3>Replace an Avatar for <%= current_member.login %></h3>
+
+<% form_for [current_member, @avatar], :html => {:multipart => true} do |f| %>
+
+ 
+<div class="user_form">
+  <div class="form_left">
+    
+    <h4>Upload Image</h4>
+   
+   <p><label for="image_data">Choose An Image from My Computer</label><br/>
+        <%= f.file_field :image_file %></p>
+   
+  <p><label for="image_data">or Upload and Image from the Internet</label><br/>
+      <%= f.text_field :image_file_url %></p>
+   
+   <p>Images on your computer or from the Internet can be in any of popular image formats.  Most cameras create images in .jpg format, which is perfect
+     for product images.</p>
+
+  </div>  
+  
+  <div class="form_right more_info"> 
+    <h4>My Current Avatar</h4>  
+    <ul id="product_images">
+    <li><%= image_tag formatted_member_avatar_path(current_member, current_member.avatar, :png), :class => "thumb" %><br/>
+      <%= link_to "Remove this instead of replacing", member_avatar_url(current_member, current_member.avatar), :method=>:delete, :confirm => "Are you sure?" %></li> 
+    </ul>
+    
+    
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>
+<div class="form_submit">
+ <%= f.submit "Replace with this Image" %>
+</div>
+    
+
+<% end %>

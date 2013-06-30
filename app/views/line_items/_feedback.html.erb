@@ -1,0 +1,4 @@
+<p>You gave this seller a <%= feedback.rating %> out of 5.</p>
+<% unless feedback.comment.blank? %>
+  <p>Your comment: <%= feedback.comment %></p>
+<% end %>

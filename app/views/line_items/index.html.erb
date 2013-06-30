@@ -1,0 +1,35 @@
+<% unless @line_items.empty? || current_member.seller.blank? %>
+<div id="sell_my_sales_summary" class="box green full_span">
+  <h2>My Sales Summary</h2>
+  <div id="sell_my_sales_summary_content" class="box_interior">
+    <div class="right">
+      <p class="product_price"><%= current_member.seller.total_revenue.format %></p>
+      <p class="details button">Total Revenue*</p>
+    </div>
+    <p><%= current_member.seller.total_items_sold %> Items Sold<br/>
+      <%= current_member.unshipped_items.size %> Items Waiting for Shipment<br/>
+      <%= current_member.seller.outstanding_revenue.format %> Outstanding Revenue*
+    </p>
+    <p class="details bump_down">* after all transaction fees</p>
+  </div>
+</div>
+<% end %>
+<div id="sell_my_sales" class="box full_span">
+  <div id="filters">
+    <%= link_to "view available items", products_path%>
+  </div>
+  <h2>My Sales</h2>
+  <div id="sell_my_sales" class="box_interior">
+    <% if @line_items.empty? %>
+     <p>You have not sold any items on <%=SITE_NAME%> just yet.  But chin up!  We are sure that you will soon!</p>
+    <% else %>
+      <table>
+        <%= render :partial => @line_items %>
+      </table>
+    <% end %>
+  </div>
+</div>
+
+
+
+

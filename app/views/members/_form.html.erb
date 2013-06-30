@@ -1,0 +1,19 @@
+<p><label for="member_login">Desired Login</label><br/>
+        <%= form.text_field :login  %></p>
+
+    <p><label for="member_email">Your Email</label><br/>
+        <%= form.text_field :email  %></p>
+
+    <p><label for="member_password">Password</label><br/>
+        <%= form.password_field :password  %><br/>
+        <span class="details">Leave blank if you do not wish to change.</span>
+    </p>
+
+    <p><label for="member_salt">Confirm Password</label><br/>
+        <%= form.password_field :password_confirmation  %><br/>
+        <span class="details">Leave blank unless changing your password.</span>
+    </p>
+
+    <p><label for="member_remember_token"><%= form.check_box :remember_token %> Remember My Login On This Computer</label></p>
+
+ 

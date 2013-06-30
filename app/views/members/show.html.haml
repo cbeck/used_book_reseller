@@ -1,0 +1,13 @@
+%h3 My Login Information
+%p.form_link= link_to 'I want to edit this information', edit_member_path(current_member)
+.member_form
+  .spiffy_form.form_left
+    %h5 Basic Information   
+    %p== Your Login: #{current_member.login}
+    %p== Your Email: #{current_member.email}
+    %p Your Password: Hidden for security purposes
+    %p== Member Since: #{current_member.created_at}
+  
+  .form_right.protected
+    %p.protected Your information is safe with us.  We will never sell your email address to any third-parties.
+    %p.protected Your password is not displayed for your protection.  If you would like to change your password, select the edit link above.

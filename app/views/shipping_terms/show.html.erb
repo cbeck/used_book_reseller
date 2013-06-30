@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @shipping_term.name %>
+</p>
+
+<p>
+  <b>Max ship time:</b>
+  <%=h @shipping_term.max_ship_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_shipping_term_path(@shipping_term) %> |
+<%= link_to 'Back', shipping_terms_path %>

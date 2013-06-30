@@ -1,0 +1,12 @@
+<h1>Editing forum_group</h1>
+
+<%= error_messages_for :forum_group %>
+
+<% form_for(:forum_group, :url => forum_group_path(@forum_group), :html => { :method => :put }) do |f| %>
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', forum_group_path(@forum_group) %> |
+<%= link_to 'Back', forum_groups_path %>

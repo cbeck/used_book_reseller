@@ -1,0 +1,62 @@
+<div id="show_header" class="box two_thirds_span left">
+  <h2><%= h @product.title %></h2>
+  <div id="show_header_content" class="box_interior">    
+    <%= render :partial => "basic_info", :locals => {:show => true}%>
+  </div>
+</div>
+
+<div id="show_actions" class="box green third_span right">
+  <h2>What Can You Do Here?</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Add Another Product", products_path, :class => "green_button long" %></li>  
+      <% unless @product.held?  %>
+      <li class="bump_down"><%= link_to 'Edit This Product', edit_product_path(@product) %></li>
+      <li><%= link_to 'Remove This Product', product_path(@product), :confirm => 'Are you sure you want to remove this product? This cannot be undone...', :method => :delete %></li>
+      <li><%= link_to "Manage Product Images", product_product_images_url(@product) %></li>
+      <% end %>
+      <li class="bump_down"><%= link_to 'View All Of My Products', products_path %></li>
+          
+    </ul>    
+  </div>
+</div>
+
+<div id="show_status" class="box third_span right">
+  <h2>Product Status</h2>
+  <div id="show_status_content" class="box_interior">
+    <%= render :partial => "product_status" %>
+  </div>
+</div>
+
+<div id="show_images" class="box two_thirds_span left">
+  <h2>Product Images</h2>
+  <div id="show_images_content" class="box_interior">
+    <% if @product.product_images.empty? && @product.small_image_url.blank? %>
+      <p>Adding images to products on <%=SITE_NAME%> is easy! Just click the button below...</p>
+      <p class="bump_down"><%= link_to 'Upload Images Now', new_product_product_image_url(@product), :class => "green_button long"%></p>
+      <p>You cannot edit images for this item while it is in someone's shopping cart.</p>
+    <% else %>  
+      <ul>
+      <% if @product.use_amazon_image_as_default? %>
+        <li><%= lightbox_to(@product.small_image_url, @product.full_image_url, "#{h(@product.title)}", "thumb product", "prod_images") %></li>
+      <% end %>
+      <% @product.product_images.each do |pi| -%>
+        <li><%= lightbox_to(formatted_show_thumb_product_product_image_path(@product, pi, :png), formatted_show_full_product_product_image_path(@product, pi, :png), "#{h(@product.title)}", "thumb product", "prod_images") %></li> 
+      <% end -%>      
+      </ul>   
+    
+      <p class="clear_fix"><br/><%= link_to "Manage Images", product_product_images_url(@product), :class=>"green_button long" %></p>
+      <% if @product.product_images.empty? %>
+         <p class="details bump_down">The image you are using was downloaded for you from a well-known book retailer. You are welcome to use this image, and will not need to do anything. However,
+           if you would rather upload your own image(s) to use for your product, click the button above...</p>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+%li.cart= link_to(image_tag(cart_item.product.image_url, {:border => 0}), detail_product_path(cart_item.product), {:align => 'left', :class => 'thumb', :title=>"#{cart_item.product.title} - #{cart_item.quantity} ordered"})

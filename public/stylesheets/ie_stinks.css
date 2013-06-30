@@ -1,0 +1,66 @@
+/* 
+  If you are reading this, your browser is lightyears behind the rest of the planet. Please do all of us a favor and upgrade it. 
+  We could make even cooler apps if we didn't have to spend time solving issues for IE. A lot of my designer brethren have stopped
+  supporting IE 6. I am about ready to drop it, too. If your corporation will not allow you to upgrade to a standards-based browser,
+  you have my sympathies. 
+*/
+
+#canvas_top {
+  background-image: none;
+  height: 50px;
+}
+
+h1#logo {
+  background: transparent url('/images/hsa_logo_small_no_mantra_ie.png') no-repeat top right;
+}
+
+#help #logo {
+  background: transparent url('/images/hsa_button_only_48.gif') no-repeat top right;
+}
+
+ul.list { 
+  list-style-image: url('/images/heart_list_bullet.gif');
+}
+
+dt { 
+  background: transparent url('/images/heart_list_bullet.gif') no-repeat top left; 
+}
+
+#cart {
+  background: transparent url('/images/backgrounds/cart_button_back.gif') no-repeat top left;
+}
+
+a.product_price, p.product_price, a.green_button, div.form a.product_price, div.form p.product_price, div.form a.green_button {
+  background: transparent url('/images/backgrounds/add_to_cart_button_back.gif') no-repeat top center;
+}
+
+div.form a.green_button.long, a.green_button.long { 
+  background-image: url('/images/backgrounds/green_button_back_190.gif');
+}
+
+div.form a.green_button.super_long, a.green_button.super_long { 
+  background-image: url('/images/backgrounds/green_button_back_216.gif');
+}
+
+div.form a.green_button.long.currently_unavailable, div.form a.green_button.long.red_button, a.green_button.long.currently_unavailable, a.green_button.long.red_button { 
+  background-image: url('/images/backgrounds/red_button_back_190.gif');
+}
+
+ul#main_nav{ padding-top:0px; margin-top: 34px }
+ul#main_nav li a {color:#fff; }
+ul#main_nav li.current a {color:#b60808; background:none }
+ul#main_nav li.current { background: none;}
+div.box.half_span { width: 320px;}
+div#home_peeps_content {padding: 0;}
+div.box_interior {padding: 7px;}
+div.box.left {margin-right:7px;}
+div.box { padding:1px;}
+
+a.thumb img, img.thumb {margin-right:7px;}
+
+#notice	{
+	color: #70c66f;
+	font-weight:bold;
+	font-size:1.4em;
+	padding: 14px;
+}

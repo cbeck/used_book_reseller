@@ -1,0 +1,102 @@
+<div id="seller_form" class="box green full_span">
+  <h2>Become A Trusted Seller</h2>
+  <div id="seller_form_content" class="box_interior form">
+    <%= error_messages_for :seller %> 
+    <% form_for [current_member, @seller] do |f| %>
+    <div class="interior_half left">    
+    
+         
+      <%= render :partial => "form", :object => f %>      
+    
+      <p><%= f.check_box :accepted_terms %> <%= f.label :accepted_terms, "I have read and agree to the #{link_to 'terms', terms_path, :target => '_new'}"%><span class="emphasized">*</span></p>
+      <p><%= submit_tag "Yes! I am ready to sell!", :disabled => @seller.preferred_payment_method.blank?, :id => "submit_button" %></p> 
+      <p class="emphasized">* Required</p>
+      <p class="details">Your information is safe with us.  We will never sell your email address to any third-parties.</p>
+    </div>
+    
+    <div class="interior_half right"> 
+      <h3><%= f.label :preferred_payment_method, "How Would You Like Us To Pay You?" %> <span class="emphasized">*</span></h3>
+      <p>Unlike other online selling services, your PayPal or address information is NEVER shared with the buyer. When your 
+        product is sold, we collect the money via our PayPal account, and then use the method below to pay you once you ship 
+        your item. This allows us to protect both parties, and insures your privacy.</p>
+        <p><strong>When I ship my sold item, Homeschool Apple should...</strong></p>
+      <p>
+        <%= f.radio_button(:preferred_payment_method, "mail", {:onclick => "Application.choose_checks()"}) %> Mail Me A Check<br/>
+        <%= f.radio_button(:preferred_payment_method, "paypal", {:onclick => "Application.choose_paypal()"})%> Deposit Into My Paypal Account</p> 
+         <% 
+           address_style = "display:none;"
+           paypal_style = "display:none;"
+           unless @seller.preferred_payment_method.blank?
+             (@seller.preferred_payment_method == "paypal") ? paypal_style = "" : address_style = ""
+           end           
+          %>     
+        <div id="seller_address" style="<%=address_style%>">    
+          
+        <p><label for="seller_address_line_1">Name on Check</label><br/>
+            <%= f.text_field :name_on_check  %></p>
+
+        <p><label for="seller_address_line_1">Address Line 1</label><br/>
+            <%= f.text_field :address_line_1  %></p>
+
+        <p><label for="seller_address_line_2">Address Line 2</label><br/>
+            <%= f.text_field :address_line_2  %></p>
+
+        <p><label for="seller_city">City</label><br/>
+            <%= f.text_field :city  %></p>
+
+        <p><label for="seller_state">State</label><br/>
+          <%# state_select(object, method, country='US', options = {}, html_options = {})%>
+          <%= f.us_state_select :state, :show => :full_abb %>
+          <%#= form.state_select(:state, country='US' )%>
+            <%#= form.text_field :state  %></p>
+
+        <p><label for="seller_zip">Zip or Postal Code</label><br/>
+            <%= f.text_field :zip  %></p>
+
+        <p><label for="seller_country">Country</label><br/>
+            <%= f.text_field :country  %></p>
+        </div>
+
+        <div id="seller_paypal" style="<%=paypal_style%>">
+
+        <p><label for="seller_pay_pal_id">PayPal Account Email Address</label><br/>
+            <%= f.text_field :pay_pal_id %></p>
+            <p>Want to use PayPal but don't have an account? <%= link_to "Sign up here", "http://www.paypal.com", :target => "_new" %>. We'll even open this link in a new window so you don't lose your place.</p>
+            <p class="details">We do not have access to any of your bank information: that is all kept secure by PayPal. For more information about this service, visit <%= link_to image_tag("paypal_12.png"), "https://www.paypal.com/us/cgi-bin/webscr?cmd=_batch-payment-benefits" %>.</p>
+        </div>
+     </div>
+     <% end %>
+    
+      <div class="clear_fix">&nbsp;</div>
+  </div>
+</div>
+
+<div id="info_text" class="box full_span">
+  <h2>Why Do I Need To Do This?</h2>
+  <div id="info_text_content" class="box_interior space_out">
+    <p>Before you begin selling your items on Homeschool Apple, let's take a brief moment to get to know each other a little better.</p>
+    <p>We allow you to sell any homeschool curriculum or merchandise easily.  No more posting and re-posting on some message-board.
+      All of your items go in our catalog and are able to be browsed, searched for and promoted just like any other item we offer. Interested 
+      buyers can simply add your items to their shopping cart, and when they check out, we go ahead and process their payment immediately.</p>
+    <p>After their funds clear, we send the proceeds of the sale directly to you either via a direct deposit into your account (handled through PayPal)
+      or we mail you a check.  In order to be able to do that, we need just a little bit more information from you.  You will only have to fill out this form
+      one time, but you will be able to edit the information later if you choose.</p>
+    <p>Ready?  Let's get started!</p>
+  </div>
+</div>
+<div id="cost" class="box full_span">
+  <h2>How Much Does It Cost?</h2>
+  <div id="cost_content" class="box_interior space_out">
+    <p>We strive to keep this service as inexpensive as possible. We do not charge any insertion fees, listing fees, or
+      final value fees, unlike some other sites out there. There is no limit to the number of items you can post, and postings can be as long or as short as you want. Also, you can upload pictures to your heart's content.</p>
+    <p>We do have a small yearly membership fee which helps us develop and improve the site, and you can find out more about that by clicking on "Upgrade My Account,"
+      which is found in the My Account section. But if you are just checking out how all of this works, no problem! You are free to sell up to three items on the Free
+      Account as a way to try us out before you buy anything. Our hope is that you will find using our service more than worth the price!</p>
+  </div>
+</div>
+
+
+
+
+
+

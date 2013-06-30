@@ -1,0 +1,107 @@
+
+<div id="tracking" class="box full_span red">
+  <h2>Tracking Information</h2>
+  <div id="tracking_content" class="box_interior"> 
+    <% if !@line_item.shipping_entered? %>
+      <%= render :partial => "tracking_form" %> 
+    <% else %>
+      <%= render :partial => "tracking"%>
+    <% end %>   
+  </div>
+</div>
+
+<div id="show_header" class="box two_thirds_span left">
+  <h2>Sales Summary</h2>
+  <div id="show_header_content" class="box_interior">    
+    <div class="featured left">
+      <%= image_tag(@line_item.product.med_image_url) %>
+    </div>
+    <p>Congratulations! You have sold <%= @line_item.quantity  %> copy of <%= h @line_item.product.title %> to <%= @line_item.order.name  %></p>
+    
+    <p class="bump_down highlight"><%= @line_item.quantity  %> Sold for <%= @line_item.total_price.format  %></p>
+  </div>
+  
+</div>
+
+
+
+<div id="show_actions" class="box green third_span right">
+  <h2>I'm Done Here</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>
+      <% unless @line_item.tracking_number.blank? %>
+      <li><%= render :partial => "edit_tracking_link" %> </li>
+      <% end %>
+      <li class="bump_down"><%= link_to 'View All Of My Sales', line_items_path %></li>
+      <li><%= link_to 'View All Items I Need To Ship', unshipped_line_items_path %></li>
+    </ul>    
+  </div>
+</div>
+<div id="order_details" class="box third_span right">
+   <h2>Order Details</h2>
+   <div id="order_details_content" class="box_interior">
+     <p>Order Number: <%= @line_item.order.id %>-<%= @line_item.id %></p>
+     <p>Order Placed On: <%= @line_item.order.created_at %></p>
+   </div>
+ </div>
+<div id="ship" class="box two_thirds_span left">
+  <h2>Ship To</h2>
+  <div id="ship_content" class="box_interior">
+    <p><%= @line_item.order.name %><br/>
+    	<%= @line_item.order.address_line_1  %><br/>
+  		<%= "#{@line_item.order.address_line_2}<br/>" unless @line_item.order.address_line_2.blank? %>
+  		<%= @line_item.order.city%>, <%=@line_item.order.state%>  <%=@line_item.order.zip%><br/>
+  		<%= "#{@line_item.order.country}<br/>" unless @line_item.order.country.blank? or @line_item.order.country == "US" %>
+   </p>
+  </div>
+</div>
+
+ 
+  
+  <div id="product" class="box two_thirds_span left">
+    <h2>Other Product Info</h2>
+    <div id="product_content" class="box_interior">
+
+      <p>ISBN Number: <%= @line_item.product.isbn  %><br/>
+         Title: <%= @line_item.product.title  %><br/>
+         Publisher: <%= @line_item.product.publisher_name  %><br/>
+         Format: <%= @line_item.product.item_format.name  %><br/>
+         Condition: <%= @line_item.product.condition  %></p>
+         <p class="bump_down">Description: <%= @line_item.product.description  %></p>    
+
+        <h3>Catalog Information</h4>
+
+        <p>Categories: <%= @line_item.product.categories.collect {|pc| pc.name}.to_sentence %><br/>
+        Published on: <%= @line_item.product.publish_at %>  <br/>
+        Quantity Now Available: <%= @line_item.product.quantity_avail %></p>
+    </div>
+  </div> 
+  
+  
+  <div id="show_images" class="box two_thirds_span left">
+    <h2>Product Images</h2>
+    <div id="show_images_content" class="box_interior">
+      <% unless @line_item.product.product_images.empty? && @line_item.product.small_image_url.nil? %> 
+      <ul id="product_images" class="featured">       
+        <% @line_item.product.product_images.each do |pi| -%>
+          <li><%= image_tag formatted_show_thumb_product_product_image_path(@line_item.product, pi, :png), :class => "thumb" %></li>       
+        <% end -%>
+         <% unless @line_item.product.small_image_url.blank? %>
+            <li><%= image_tag @line_item.product.small_image_url, :class => "thumb" %></li>   
+          <% end %>
+      </ul>
+      <% end %>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<p class="clear_fix">&nbsp;</p>
+
+
+
+

@@ -1,0 +1,29 @@
+<div id="show_header" class="box two_thirds_span left">
+  <h2><%= h @freecycle.name %></h2>
+  <div id="show_header_content" class="box_interior space_out">    
+    <div class="product_description"><%= textilize(@freecycle.description) %></div>
+    <p>
+      This item is located near <%=h @freecycle.metro_area.name %>.
+    </p>
+  </div>
+</div>
+
+<div id="show_actions" class="box green third_span right">
+  <h2>What Can You Do?</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>      
+      <% if @belongs_to_member %>
+      <li><%= link_to 'Edit This Freecycle', edit_freecycle_path(@freecycle), :class => "green_button long" %></li>  
+      <li class="bump_down"><%= link_to 'Remove This Freecycle', @freecycle, :confirm => 'Are you sure you want to remove this freecycle? This cannot be undone...', :method => :delete %></li>
+      <li><%= link_to "List A New Freecycle", new_freecycle_path %></li>
+      <li><%= link_to "Manage My Freecycles", manage_freecycles_path %></li>
+      <% else %>
+      <li><%= link_to "Contact The Owner", new_message_path(:freecycle => @freecycle), :class => "green_button long" %></li> 
+      <% end %>  
+      <li class="bump_down"><%= link_to "Back to All Freecycles", freecycles_path %></li>        
+    </ul>    
+  </div>
+</div>
+
+
+

@@ -1,0 +1,68 @@
+<div class="form_left">    
+    
+		<div style="overflow: auto;">
+			<div style="width: 48%; float: left;">
+				<h4>Billing Information:</h4>
+				<p><label for="order_name">Name</label><br/>
+					<%= form.text_field :name %></p>
+
+				<p><label for="order_email">Email</label><br/>
+					<%= text_field 'order', 'email'  %></p>
+			</div>
+
+			<div style="width: 48%; float: left;">
+			  <h4>Shipping Info:</h4>
+			  <p><label for="order_ship_to">Ship To</label><br/>
+					<%= text_field 'order', 'ship_to'  %></p>
+
+				<p><%= check_box_tag 'ship_to_billing', 1, true %> 
+					<label for="order_ship_to_billing">Same As Billing Address</label></p>  
+			</div>
+		</div>
+
+		<div style="overflow: auto;">
+			<div style="width: 48%; float: left;">
+     
+				<p><label for="order_address_line_1">Address Line 1</label><br/>
+				  <%= text_field 'order', 'address_line_1'  %></p>
+
+				<p><label for="order_address_line_2">Address Line 2</label><br/>
+				  <%= text_field 'order', 'address_line_2'  %></p>
+    
+				<p><label for="order_city">City</label><br/>
+				  <%= text_field 'order', 'city'  %></p>
+   
+				<p><label for="order_state">State</label><br/>
+				  <%= text_field 'order', 'state'  %></p>
+    
+				<p><label for="order_zip">Postal Code</label><br/>
+				  <%= text_field 'order', 'zip'  %></p>
+  
+				<p><label for="order_country">Country</label><br/>
+				  <%= text_field 'order', 'country'  %></p>
+				
+			</div>
+
+			<div style="width: 48%; float: left;">
+    
+			  <p><label for="order_ship_address_line_1">Address Line 1</label><br/>
+			     <%= text_field 'order', 'ship_address_line_1'  %></p>
+  
+			  <p><label for="order_ship_address_line_2">Address Line 2</label><br/>
+			     <%= text_field 'order', 'ship_address_line_2'  %></p>
+
+			  <p><label for="order_ship_city">City</label><br/>
+			    <%= text_field 'order', 'ship_city'  %></p>
+    
+			  <p><label for="order_ship_state">State</label><br/>
+			    <%= text_field 'order', 'ship_state'  %></p>
+  
+			  <p><label for="order_ship_zip">Postal Code</label><br/>
+			    <%= text_field 'order', 'ship_zip'  %></p>
+    
+			  <p><label for="order_ship_country">Country</label><br/>
+			    <%= text_field 'order', 'ship_country'  %></p>   
+			</div>
+		</div>
+
+  </div>  

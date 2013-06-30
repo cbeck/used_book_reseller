@@ -1,0 +1,68 @@
+<% unless @order.nil? %>
+<div id="order_details" class="box two_thirds_span left">
+  <h2>Order Details For Order Number <%= @order.id %></h2>
+  <div id="order_details_content" class="box_interior">
+    <p>Total Price: <%= @order.total_price.format %></p>
+  	<% unless @order.purchased_at.nil? %>
+  	  <p>Order Placed On: <%= @order.purchased_at.strftime('%m/%d/%Y %I:%M%p') %></p>
+  		<p>Paypal email: <%= @order.email %></p>  
+  		<p class="details">Your PayPal address is not shared with the seller</p>   
+  		
+  		<h3>Shipping To:</h3>
+  		<%= @order.name  %><br/>
+  		<%= @order.address_line_1  %><br/>
+  		<%= "#{@order.address_line_2}<br/>" unless @order.address_line_2.blank? %>
+  		<%= @order.city%>, <%=@order.state%>  <%=@order.zip%><br/>
+  		<%= "#{@order.country}<br/>" unless @order.country.blank? or @order.country == "US" %>
+  	<% else %>
+  		<p>Order status: <%=@order.status %><p>
+  	<% end %>
+  </div>
+</div>
+
+<div id="order_actions" class="box green third_span right">
+  <h2>I'm Done</h2>
+  <div id="order_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "View All Orders", orders_path, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>
+
+<div id="order_care" class="box third_span right">
+  <h2>We Care!</h2>
+  <div id="order_care_content" class="box_interior form">
+    <p>We care about your satisfaction.  Please let us know if you experience any problem with any of your orders.</p>
+    <p> Simply email our customer care team at <%= mail_to APP_CONFIG[:support_email], APP_CONFIG[:support_email] %> if you 
+    have any questions, comments or concerns what-so-ever.</p>
+  </div>
+</div>
+
+<div id="ordered_items" class="box two_thirds_span left">
+  <h2>Items Ordered</h2>
+  <div id="ordered_items_content" class="box_interior">
+    <table>
+      <%= render :partial => "line_item", :collection => @order.line_items %>
+    </table>
+  </div>
+</div>
+
+<% unless logged_in? %>
+<div id="convert_to_member" class="box two_thirds_span left">
+  <h2>Whoa Nelly!</h2>
+  <div id="convert_to_member_content" class="box_interior space_out">
+    <p>You made this order without logging in. While that is totally fine with us, you may want to track this order, leave feedback for the seller, or otherwise want
+      to interact with this order again. If you do, why don't you log in or become a member today? It's totally free, and we won't harass you or bombard you with 
+      a bunch of spam.</p>
+     <p><%= link_to "Sign up", signup_path(:order_id => @order)%> or <%= link_to "login", login_path(:order_id => @order) %> to track this order.</p>
+  </div>
+</div>
+<% end %>
+
+<% else %>
+	<h3>Order Not Found</h3>
+	<p>That order does not belong to you or was not found</p>
+<% end %>
+
+
+

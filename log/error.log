@@ -1,0 +1,13 @@
+[Thu Nov 13 14:54:53 2008] [error] [client 127.0.0.1] Premature end of script headers: footerbg.jpg, referer: http://noodle.local/stylesheets/hsa_new.css
+[Tue Feb 17 09:01:00 2009] [error] [client 127.0.0.1] Premature end of script headers: home, referer: http://hsa.local/shop
+[Wed Feb 18 12:22:47 2009] [error] [client 127.0.0.1] Premature end of script headers: shop, referer: http://hsa.local/line_items
+[Wed Feb 25 16:33:19 2009] [error] [client 127.0.0.1] Premature end of script headers: products, referer: http://hsa.local/products/78/edit
+[Sat Feb 28 23:06:09 2009] [error] [client 127.0.0.1] Premature end of script headers: product_images, referer: http://hsa.local/products/181/product_images/new
+[Sun Mar 01 22:07:46 2009] [error] [client 127.0.0.1] Premature end of script headers: new, referer: http://hsa.local/products/181/edit
+[Mon Mar 02 00:38:03 2009] [error] [client 127.0.0.1] Premature end of script headers: 9, referer: http://hsa.local/admin/account_features/new
+[Mon Mar 02 10:12:30 2009] [error] [client 127.0.0.1] Premature end of script headers: new, referer: http://hsa.local/shop
+[Mon Mar 02 16:40:31 2009] [error] [client 127.0.0.1] Premature end of script headers: new, referer: http://hsa.local/
+[Thu Mar 05 00:27:43 2009] [error] [client 127.0.0.1] Premature end of script headers: new, referer: http://hsa.local/home
+[Fri Mar 06 12:52:24 2009] [error] [client 127.0.0.1] Premature end of script headers: , referer: http://hsa.local/shop
+[Mon Mar 09 18:20:24 2009] [error] [client 127.0.0.1] Premature end of script headers: 29, referer: http://hsa.local/admin/account_features/new
+[Wed Mar 25 19:12:41 2009] [error] [client 127.0.0.1] Premature end of script headers: 185, referer: http://hsa.local/messages/new?product=185

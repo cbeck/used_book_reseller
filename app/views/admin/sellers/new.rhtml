@@ -1,0 +1,23 @@
+<h3>Tell Us More About Yourself...</h3>
+
+<p>Before you begin selling your items on <%=SITE_NAME%>, let's take a brief moment to get to know each other a little better.</p>
+<p><%=SITE_NAME%> allows you to sell any homeschool curriculum or merchandise easily.  No more posting and re-posting on some message-board.
+  All of your items go in our catalog and are able to be browsed, searched for and promoted just like any other item we offer. Interested 
+  buyers can simply add your items to their shopping cart, and when they check out, we go ahead and process their payment immediately.</p>
+<p>After their funds clear, we send the proceeds of the sale directly to you either via a direct deposit into your account (handled through PayPal)
+  or we mail you a check.  In order to be able to do that, we need just a little bit more information from you.  You will only have to fill out this form
+  one time, but you will be able to edit the information later if you choose.</p>
+<p>Ready?  Let's get started!</p>
+  
+
+<% form_for [current_member, @seller] do |f| %>
+    <%= error_messages_for :seller %>
+
+  <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Create" %>
+  </div>
+  
+ 
+<% end %>

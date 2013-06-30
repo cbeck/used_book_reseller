@@ -1,0 +1,13 @@
+<% product ||= small_product_listing %>
+<table>
+<td>  
+<%= lightbox_to(product.image_url, product.full_image_url, "#{h(product.title)}", "thumb product") %>
+<%#= link_to(image_tag(product.image_url, :class => "thumb product", :title => h(product.title)), detail_product_path(product))%>
+</td>
+<td>    
+  <p class="title"><%= link_to h(product.short_title), detail_product_path(product), :title => h(product.title) %></p>
+  <p class="details"><%= product.quantity_avail %> <%= product.item_format.name %> available from <%= link_to h(product.seller.name), profile_seller_path(product.seller) %></p>
+  <p class="bump_down"><%= link_to_remote(render_price(product.offer_price), :url => product_line_items_url(product, :reload => true), :html => {:class => "product_price"} )%></p>
+</td>
+</table>
+

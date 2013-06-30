@@ -1,0 +1,18 @@
+<p>
+  <b>Weight:</b>
+  <%=h @media_mail.weight %>
+</p>
+
+<p>
+  <b>Rate cents:</b>
+  <%=h @media_mail.rate_cents %>
+</p>
+
+<p>
+  <b>Currency:</b>
+  <%=h @media_mail.currency %>
+</p>
+
+
+<%= link_to 'Edit', edit_media_mail_path(@media_mail) %> |
+<%= link_to 'Back', media_mails_path %>

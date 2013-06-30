@@ -1,0 +1,80 @@
+<% form_for @product do |f| %>
+  <div id="sell_header" class="box two_thirds_span left">
+    <h2>Edit Your Product Details</h2>
+    <div id="sell_header_content" class="box_interior form">    
+        <%= render :partial => "form", :object => f %>
+    </div>  
+  </div>
+
+  <div id="sell_actions" class="box green third_span right">
+    <h2>Oops! Cancel This</h2>
+    <div id="sell_actions_content" class="box_interior">
+      <ul>
+        <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+      </ul>    
+    </div>
+  </div>
+
+  <div id="sell_details" class="box third_span right">
+    <h2>Categories and Availability</h2>
+    <div id="sell_details_content" class="box_interior form">
+      <%= render :partial => "publishing_info_form", :locals => {:form => f} %>
+    </div>
+  </div>
+
+  <div id="sell_price" class="box two_thirds_span left">
+    <h2>How Much Are You Asking?</h2>
+    <div id="sell_price_content" class="box_interior form">
+      <div class="featured left">
+        <%= f.label :product_offer_price, "Your Selling Price <b>With Shipping</b>" %><br/>
+           $<%= text_field_tag "offer_price", @product.offer_price %>
+      </div>
+      <%= render :partial => "price_details"%>
+    </div>
+  </div>
+  
+<div id="sell_images" class="box two_thirds_span left">
+  <h2>Product Images</h2>
+  <div id="sell_images_content" class="box_interior">
+    <% unless @product.product_images.empty? && @product.small_image_url.nil? %> 
+    <ul id="product_images" class="featured">       
+      <% @product.product_images.each do |pi| -%>
+        <li><%= image_tag formatted_show_thumb_product_product_image_path(@product, pi, :png), :class => "thumb" %></li>       
+      <% end -%>
+       <% unless @product.small_image_url.blank? %>
+          <li><%= image_tag @product.small_image_url, :class => "thumb" %></li>   
+        <% end %>
+    </ul>
+      <% if @product.product_images.empty? %>
+         <p class="details">The image you are using was downloaded for you. You are welcome to use this image, and will not need to do anything. However,
+           if you would rather upload your own image(s) to use for your product, click the button below to "Save and Manage Product Images."</p>
+      <% end %>
+    <% else %>    
+      <p>You currently have no product images. You may add images to this product by choosing "Save and Manage Product Images" below.</p>    
+    <% end %>
+  </div>
+</div>
+
+
+
+<div id="sell_submit" class="box two_thirds_span left green">
+  <h2>All done!</h2>
+  <div id="sell_submit_content" class="box_interior form">
+    <%= submit_tag "Save My Changes"%> <%= button_to_function "Save And Manage Product Images", "$('go_to_images').value='true';document.forms[0].submit()" %>
+    <%= hidden_field_tag 'go_to_images', false %>
+  </div>
+</div>
+
+<% end %> 
+
+<div id="fine_print" class="box two_thirds_span left">
+  <h2>Remember...</h2>
+  <div id="fine_print_content" class="box_interior space_out">
+  <p class="details">We collect the purchase price for your item immediately from the buyer at the time of the sale.</p>
+  <p class="details">In order to avoid any confusion or embarrassing situations, we ask that you immediately mark as "Currently Unavailable" (see drop-down above) any item that you intend to sell elsewhere or otherwise do not wish to make available for sale here.</p>
+  <p class="details">If your item has sold, we will make it as easy as possible on you by updating your product for you and inform you where you can send it via email as well as on this site. Happy Selling!</p>
+  </div>
+</div>
+
+
+

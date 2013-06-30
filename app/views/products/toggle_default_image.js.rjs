@@ -1,0 +1,4 @@
+show_ajax_flash_messages({},page)
+
+page[:set_default_image_button].replace_html :partial => 'product_images/use_amazon_button'
+page[:set_default_image_button].visual_effect :appear

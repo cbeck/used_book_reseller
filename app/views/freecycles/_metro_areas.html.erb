@@ -1,0 +1,17 @@
+<% metro_area_name ||= "" %>
+<div id="filters">
+  <p class="bump_left"><%= metro_area_name %></p>
+</div>
+<h2>Set My Metro Area <span class="header_link"><%=link_to_remote 'search', :url => change_browser_freecycles_path(:to => "search")%></span></h2>
+<div id="share_browser_content" class="box_interior space_out">
+  
+  <% form_tag search_freecycles_path, :method => 'get', :id => 'search_form' do %>
+    <%= text_field_with_auto_complete :metro_area, :name, disable_enter_key %>
+    <%= submit_tag "Set" %>
+  <% end %>
+  
+  <% unless metro_area_name.blank? %>
+  <br/><%= link_to "clear", freecycles_path %>
+  <% end %>
+  
+</div>

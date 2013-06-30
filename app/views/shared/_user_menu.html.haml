@@ -1,0 +1,11 @@
+%h4 My Account Options
+%ul
+  - if current_member.is_admin?
+    %li= link_to("Admin" , admin_url)
+  %li= link_to("My Dashboard", {:controller => :dashboard})
+  %li= link_to("My Login Info", member_url(current_member))
+  %li= link_to("My Profile" , member_profiles_url(current_member))
+  %li= link_to("My Seller Info" , member_sellers_url(current_member))
+  %li= link_to("My Product Catalog" , products_url)
+  %li= link_to("My Sales" , line_items_url)
+  %li= link_to("My Purchases" , orders_url)

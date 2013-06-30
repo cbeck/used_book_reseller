@@ -1,0 +1,10 @@
+<h2 class="filtered">Browse By Category <span class="header_link"><%=link_to_remote 'search', :url => change_browser_categories_path(:to => "search"), :class => "selected"%></span></h2>
+<div id="shop_browser_content" class="box_interior">
+  <% num = (@categories.size / 4.0).ceil %>
+  <% @categories.in_groups_of(num, false) do |category_slice| %>
+    <ul class="categories_listing">
+      <%= render :partial => "category", :collection => category_slice  %>
+    </ul>
+  <% end %>
+  <p class="clear_fix">&nbsp;</p>
+</div>

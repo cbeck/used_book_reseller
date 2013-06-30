@@ -1,0 +1,15 @@
+pending:
+  status: pending
+  name: Joe Pending
+
+authorized:
+  status: authorized
+  name: Jim Authorized
+
+uncapturable:
+  status: authorized
+  name: Una Uncapturable
+
+uncapturable_error:
+  status: authorized
+  name: Anne UncapErr

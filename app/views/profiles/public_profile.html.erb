@@ -1,0 +1,60 @@
+<% display_name = @profile.member.login%>
+<h3>Profile for <%= display_name %></h3>
+<p id="follow_<%= dom_id(@profile.member) -%>">
+  <%= render :partial => "/shared/follow", :locals => {:member => @profile.member} %>
+</p>
+
+<div class="member_form">
+  <div class="form_left spiffy_form">
+    <div class="avatar">
+      <% unless @profile.member.avatar.nil? %>
+          <%= image_tag formatted_member_avatar_path(@profile.member, @profile.member.avatar, :png), :class => "thumb" %>
+      <% end %>
+    </div>
+   <h4><%= @profile.name  %></h4>
+  
+   <p><%= @profile.city  %>, <%= @profile.state %></p>
+   <p>Gender: <%= @profile.gender %></p>
+   <p>Birthday: <%= @profile.birth_month %> <%= @profile.birth_day %></p>
+   <br/>
+   <p><%= @profile.description %></p>
+   
+   </div>
+   <div class="form_left">
+   
+   <h4>About <%= display_name %>'s Homeschool</h4>
+   
+   <p>Educational Philosophy: <%= @profile.educational_philosophy %></p>
+   <p>Curriculum: <%= @profile.curriculum %></p>
+   <p>Primary Motivation: <%= @profile.primary_motivation %></p>
+   <p>Strengths: <%= @profile.strengths %></p>
+   <p>Current Grade Levels: <%= @profile.current_grade_levels %></p>
+   <p>The Primary Teacher in Homeschool: <%= @profile.primary_teacher %></p>
+   
+   <h4>About <%= display_name %>'s Family</h4>
+   
+   <p>The Number of Children at Home: <%= @profile.number_of_children %></p>
+   <p>Their Ages: <%= @profile.ages_of_children %></p>
+   <p>The Genders of Children: <%= @profile.genders_of_children %></p>
+       
+  <h4>Where to find <%= display_name %> On the Web</h4>
+   
+   <p>Blog: <%= link_to @profile.blog_url, @profile.blog_url, :target => "new" %></p>
+   <p>Flickr Photostream: <%= link_to @profile.flickr_url, @profile.flickr_url, :target => "new" %></p>
+   <p>YouTube Videostream: <%= link_to @profile.you_tube_url, @profile.you_tube_url, :target => "new" %></p>
+   <p>Twitter: <%= link_to @profile.twitter_url, @profile.twitter_url, :target => "new"%></p>
+   
+   
+   <% unless @profile.member.followings.empty? %>
+   <h4>Following</h4>
+   <ul id="member_images">
+   <% @profile.member.followings.each do |f|  %>
+     <li><%= link_to image_tag(formatted_show_tiny_member_avatar_path(f, f.avatar, :png), :class => "thumb"), profile_path(f.login) %></li> 
+   <% end %>
+   </ul>
+   <% end %> 
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>

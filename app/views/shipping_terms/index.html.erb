@@ -1,0 +1,22 @@
+<h1>Listing shipping_terms</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Max ship time</th>
+  </tr>
+
+<% for shipping_term in @shipping_terms %>
+  <tr>
+    <td><%=h shipping_term.name %></td>
+    <td><%=h shipping_term.max_ship_time %></td>
+    <td><%= link_to 'Show', shipping_term %></td>
+    <td><%= link_to 'Edit', edit_shipping_term_path(shipping_term) %></td>
+    <td><%= link_to 'Destroy', shipping_term, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New shipping_term', new_shipping_term_path %>

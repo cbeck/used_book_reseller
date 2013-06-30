@@ -1,0 +1,44 @@
+Congratulations! You just sold something on Homeschool Apple.
+
+Items Sold
+------------------------------------------------------------
+Qty  Title                                       Price
+------------------------------------------------------------
+<% @line_items.each do |item| %>
+ <%=item.quantity%> <%=item.product.title%> <%=item.total_price.format%>
+------------------------------------------------------------ 
+<% end %>
+------------------------------------------------------------
+------------------------------------------------------------
+
+Please Ship the Item(s) To:
+------------------------------------------------------------
+<%=@order.name%>
+<%=@order.address_line_1%>
+<%=@order.city%>, <%=@order.state%> <%=@order.zip%>
+<%=@order.country unless @order.country.nil? or @order.country == "US"%>
+------------------------------------------------------------
+
+After you have shipped your item(s), please login to 
+http://homeschoolapple.com and record your items(s) 
+tracking information. To do this, simply click on the item
+on the home page in the box entitled, "Items I Need To Ship,"
+or go to http://store.homeshoolapple.com/my_unshipped_items
+to see a list of everything you need to ship.
+
+For shipping, we recommend you use Media Mail, as it is 
+generally lower in most cases and has flat-rate shipping all
+over the continental U.S. However, you are free to ship in any 
+manner you wish. If possible, please obtain a tracking number
+on your shipped products.
+
+Your proceeds from this sale will be disbursed during the next
+available payment date after you have shipped your items. 
+Currently, that process runs every business day. For payment inquiries,
+please contact payments@netphase.com.
+
+Thanks again for selling on Homeschool Apple!
+
+The HSA Team
+
+

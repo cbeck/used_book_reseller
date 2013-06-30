@@ -1,0 +1,22 @@
+<tr id="<%= dom_id(feedback) -%>" class="row_item <%= cycle("odd", "even")-%>">
+  <td>  
+    <% unless feedback.member.avatar.nil? %>
+        <%= image_tag formatted_member_avatar_path(feedback.member, feedback.member.avatar, :png), :class => "thumb" %>
+    <% end %>
+  </td>
+  <td>    
+    <p class="title"><%= link_to(h(feedback.line_item.product.title), line_item_path(feedback.line_item)) %></p>
+    <p class="details"><%= "Purchased on #{feedback.line_item.order.created_at}" %>, Order Reference #: <%= "#{feedback.line_item.order.id}-#{feedback.line_item.id}" %></p>
+    <p class="description">
+      <% if feedback.comment.blank? %>
+        The buyer did not leave any comments about this transaction.
+      <% else %>
+        <%= feedback.comment %>
+      <% end %>
+    </p>
+ </td>
+  <td>
+    <p class="product_price"><%= feedback.rating %></p>
+    <p class="details button">Out of 5</p>
+  </td>
+</tr>

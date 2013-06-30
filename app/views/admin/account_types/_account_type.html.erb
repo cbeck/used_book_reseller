@@ -1,0 +1,3 @@
+<li id="<%= dom_id(account_type) %>">
+  <%= account_type.position %>: <%= link_to account_type.name, [:admin, account_type] %> Enabled: <%= account_type.enabled? %> Allow Signup: <%= account_type.allow_signup %>
+</li>

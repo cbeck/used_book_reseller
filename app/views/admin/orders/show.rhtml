@@ -1,0 +1,46 @@
+<div class="order_info">
+	<h3>Order Information for Order Number <%= h @order.id %></h3>
+
+	<p class="form_link"><%= link_to 'Show me all orders', admin_orders_path %> | <%= link_to 'Edit this order', edit_admin_order_path(@order) %> | <%= link_to 'Delete this order', admin_order_path(@order), :confirm => 'Are you sure?', :method => :delete %></p>
+
+  <h4>Order Placed By:</h4>
+  <p>Member: <%= (@order.member.blank?) ? "Anonymous (session id: #{@order.session_id} )" : "#{@order.member.name} (#{link_to @order.member.login, admin_member_path(@order.member)})" %>
+   
+	<h4>Ship to</h4>
+	<%= @order.address_line_1  %><br/>
+	<%= "#{@order.address_line_2}<br/>" unless @order.address_line_2.blank? %>
+	<%= @order.city%>, <%=@order.state%>  <%=@order.zip%><br/>
+	<%= "#{@order.country}<br/>" unless @order.country.blank? or @order.country == "US" %>
+ 
+	<h4>Purchase Info:</h4>
+	<p>Total Price: <%= @order.total_price.format %></p>
+	<p>Paypal name: <%= @order.name  %></p>   
+	<p>Paypal email: <%= @order.email %></p>       
+	<p>Order Placed On: <%= @order.purchased_at.strftime('%m/%d/%Y %I:%M%p') %></p>
+
+	<h4>Items Ordered:</h4>
+	<table>
+		<tr>
+			<th></th>
+			<th align="left">Description</th>
+			<th width="80px" align="center">Quantity</th>
+			<th width="50px" align="right">Amount</th>
+		</tr>
+		<% @order.line_items.each do |line_item| %>
+	  <tr id="line_item_<%=line_item.id%>" valign="top">
+	  <td width="80px">
+	      <%= link_to(image_tag(line_item.product.image_url, :class => "thumb", 
+							:title => h(line_item.product.title)), buyer_line_item_path(line_item))%>           
+	  </td>
+	  <td width="600px">
+	    <p><strong><%= link_to  h(line_item.product.title), buyer_line_item_path(line_item) %></strong></p>
+	    <p class="item_details"><%= line_item.product.publisher_name %>, <%= line_item.product.item_format.name %>, Id: <%= line_item.product.id %></p>
+	    <p>Sold by <%= link_to line_item.product.seller.name, member_seller_path(current_member, line_item.product.seller) %>
+	  </td>
+		<td align="center"><%= line_item.quantity %></td>
+	  <td align="right"><%= line_item.total_price.format %></td> 
+	  </tr>
+		<% end %>
+	</table>
+   
+</div>

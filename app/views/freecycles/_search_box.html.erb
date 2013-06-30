@@ -1,0 +1,5 @@
+<% form_tag search_freecycles_path, :method => 'get', :id => 'search_form' do %>
+  <%= text_field_tag :q, '', :class => "large_field" %>
+  <%= image_submit_tag 'hsa_button_big_arrow.png', :class => "submit_button" %>
+  <%= hidden_field_tag('metro_area[name]', @metro_area.name) unless @metro_area.blank? %>
+<% end %>

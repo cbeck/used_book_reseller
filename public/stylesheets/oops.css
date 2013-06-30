@@ -1,0 +1,8 @@
+body { background-color: #000; color: #BFF0A5; text-align: center; font-family: arial, sans-serif; }
+div.dialog {
+	width: 600px;
+	padding: 8em 4em;
+	margin: 4em auto 0 auto;
+	background: transparent url("/images/hsa_logo_small_no_mantra.gif") no-repeat top center;
+}
+h1 { font-size: 2em; color: #eee; line-height: 1.5em; margin-bottom: 1em;}

@@ -1,0 +1,30 @@
+<%= render :partial => "categories_block"%>
+
+<div id="shop_products" class="box full_span">
+  <div id="filters">
+    by <%=link_to 'latest', category_path(@category, :filter => 'id'), :class => "#{'selected' if @filter.blank? || @filter == 'id'}"%>
+  	<%=link_to 'title', category_path(@category, :filter => 'title'), :class => "#{'selected' if @filter == 'title'}"%>
+  	<%=link_to 'price', category_path(@category, :filter => 'offer_cents'), :class => "#{'selected' if @filter == 'offer_cents'}"%>
+  </div>
+  <h2><%= @category.name %></h2>
+  <div id="shop_products_content" class="box_interior">
+    <% if @products.empty? %>
+     <p>There are no available homeschool products to display for this category.  
+       Why don't you <%= link_to "add one", new_product_path %>?</p>
+    <% else %>
+    <p class="emphasized smaller">* All products are sold postage paid (shipping is FREE!)</p>
+    	<table>
+        <%= render :partial => "shared/product", :collection => @products %>
+      </table>
+			<%= will_paginate @products %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+
+

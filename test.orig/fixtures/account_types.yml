@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+free:
+  id: 1
+  name: Free Account
+  description: How can you beat it?
+  price: 0
+  commission: 0
+  flat_fee: 0
+not_free:
+  id: 2
+  name: Teuer Account
+  description: Es ist sehr teuer
+  price: 39
+  commission: 5
+  flat_fee: 20

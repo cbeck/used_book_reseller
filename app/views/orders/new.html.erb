@@ -1,0 +1,35 @@
+<%= error_messages_for 'order' %>
+<div id="order_products" class="box full_span">
+	<%#= render :partial => '/shared/cart_expires' %>
+  <h2>Your Cart</h2>
+  <div id="order_products_content" class="box_interior">
+    <% if @order.empty? %>
+     <p>Your cart is empty.</p>
+    <% else %>
+      <table>
+				<% @order.line_items.each do |line_item| %>
+				<tr id="<%= dom_id(line_item.product) -%>" class="row_item <%= cycle("odd", "even")-%>">
+				  <%= render :partial => "shared/product_listing", :locals => {:product => line_item.product} %>
+				    <td><p class="product_price"><%=line_item.price.format%></p></td>
+				    <td><p class="details button"><%=line_item.quantity%> ordered</p></td>
+				</tr>
+				<% end %>
+      </table>
+    <% end %>
+  </div>
+  <h2 class="text_right" id="cart_total"><%= @order.sub_total.format %></h2>
+</div>
+<!-->
+<% form_for @order do |f| %>
+ <div id="pay_pal_button" class="form_submit text_right">
+   <%= image_submit_tag 'paypal_checkout.gif'%>
+ </div>
+<% end %>
+-->
+<div id="empty_cart_link">
+  <%= link_to_remote "Empty my cart", :url => order_url(:id => 0), :method => :delete %>
+</div>
+
+
+
+

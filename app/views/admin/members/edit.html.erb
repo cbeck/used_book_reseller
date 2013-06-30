@@ -1,0 +1,14 @@
+<h3>Edit Member Information</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @member] %></p>
+
+<% form_for [:admin, @member] do |f| %>
+    <%= error_messages_for :member %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Member Information" %>
+  </div>
+  
+ 
+<% end %>

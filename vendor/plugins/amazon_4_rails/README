@@ -1,0 +1,44 @@
+Amazon4Rails
+============
+
+Amazon4Rails allows a developer to declare a mapping between an ActiveRecord model 
+and a product listed on Amazon. Unlike other solutions based on Ruby/Amazon,
+Amozon4Rails uses the amazon-ecs library, which supports Amazon E-Commerce Services 
+REST-ful 4.0 version. This library is based loosely on the wonderfully elegant plugin
+load_from_amazon (a.k.a. acts_as_amazon), and strives to support its API so that anyone 
+wanting to migrate over to Amazon ECS 4.0 need only change the acts_as declaration in their 
+model from acts_as_amazon to the somewhat cryptic acts_as_amazonable.  Like load_from_amazon,
+this plugin allows you to add functionality so that models can be created from a search 
+(by ASIN) through the amazon e-commerce services and provides directives to describe how 
+database fields map to the data.
+
+== Example
+
+class Book < ActiveRecord::Base
+  acts_as_amazonable
+  maps_to_amazon_attribute :authorlist => 'authors', :combine => ';'
+  maps_to_amazon_attribute :title => 'product_name'
+  maps_to_amazon_attribute :isbn => 'asin'
+  maps_to_amazon_attribute :publisher => 'manufacturer'
+  maps_to_amazon_attribute :pubdate => 'release_date'
+end
+
+@book = Book.load_from_amazon(isbn.to_s) # Loads but does not save
+@book = Book.load_from_amazon!(isbn.to_s) # Loads data and saves to database
+
+In addition to supporting existing loads_from_amazon features, Amazon4Rails also seeks to 
+allow Amazon neo-phytes the ability to define mapping relationships based on a predefined 
+set of the most popular Amazon tags. A complete list follows at the end of this file.
+
+One of the major changes in Amazon 4.0 is the concept of Response Groups.  Response Groups 
+allow you to determine the amount and type of information you receive back from Amazon for 
+a given query.  Response Groups may be combined for added effect.
+
+Rails4Amazon supports Amazon Response Groups through a simple symbol parameter.  This allows 
+for complete control over the entire Amazon data feed experience.
+
+More changes are on the way, (hopefully) including support for Amazon's remote carts.  Stay tuned!
+
+== Installing
+
+Amazon4Rails can be installed through the normal rails plugin system.

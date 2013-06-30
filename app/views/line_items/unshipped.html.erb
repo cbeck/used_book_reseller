@@ -1,0 +1,12 @@
+<div id="sell_my_sales" class="box full_span">
+  <h2>Items You Need to Ship</h2>
+  <div id="sell_my_sales" class="box_interior">
+    <% if @line_items.empty? %>
+     <p>You have no items requiring shipping at this time. Good job!</p>
+    <% else %>
+      <table>
+        <%= render :partial => @line_items %>
+      </table>
+    <% end %>
+  </div>
+</div>

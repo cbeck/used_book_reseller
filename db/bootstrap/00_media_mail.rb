@@ -1,0 +1,1 @@
+MediaMail.create(:factor => 35, :starting_point => 188)

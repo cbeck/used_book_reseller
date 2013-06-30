@@ -1,0 +1,6 @@
+To setup a remote tunnel to the production server for receiving Paypal notifications, run this:
+
+    ssh admin@netphase.com -NR 10.255.135.161:8090:localhost:3000
+
+You'll need to run the local server with script/server (instead of using Passenger)
+

@@ -1,0 +1,16 @@
+<h1>Listing feedback</h1>
+
+<table>
+  <tr>
+  </tr>
+  
+<tr>
+    <td><%= link_to 'Show', feedback_path(:line_item_id => @line_item, :id => @feedback) %></td>
+    <td><%= link_to 'Edit', edit_feedback_path(:line_item_id => @line_item, :id => @feedback) %></td>
+    <td><%= link_to 'Destroy', feedback_path(:line_item_id => @line_item, :id => @feedback), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+</table>
+
+<br />
+
+<%= link_to 'New feedback', new_feedback_path(:line_item_id => @line_item) %>

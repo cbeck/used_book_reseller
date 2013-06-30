@@ -1,0 +1,45 @@
+<h3>My Seller Information</h3>
+
+<p class="form_link"><%= link_to 'I want to edit this information', edit_member_seller_path(current_member, @seller) %></p>
+
+<div class="user_form">
+  <div class="form_left">
+   
+   <h4>Basic Seller Info:</h4>
+   <p>Name You Sell Under: <%= @seller.name  %></p>
+   <p>Email Address: <%= @seller.email  %></p>
+   <p>Phone Number: <%= @seller.phone %></p>
+        
+    <h4>Address To Send Checks To:</h4>
+
+    <p>Address Line 1: <%= @seller.address_line_1 %></p>
+    
+    <p>Address Line 2: <%= @seller.address_line_2  %></p>
+    
+    <p>City: <%= @seller.city  %></p>
+            
+    <p>State: <%= @seller.state  %></p>
+
+    <p>Postal Code: <%= @seller.zip %></p>
+    
+    <p>Country: <%= @seller.country  %></p>
+    
+    <h4>PayPal Account Info:</h4>
+
+    <p>PayPal Account Email Address: <%= @seller.pay_pal_id %></p>
+    
+  </div>  
+  
+  <div class="form_right protected">
+    <p>Your information is safe with us.  We will never sell your email address or phone number to any third-parties.</p>
+    <p>Using PayPal for your payment address will allow us to pay you for your sales more quickly that by check.  By using PayPal,
+      we will be able to electronically transmit your payment to your account within a few days of the sale.</p>  
+      <p>We do not have
+      access to any of your bank information: that is all kept secure by PayPal. There is a small fee charged by PayPal for 
+      use of this service.  For more information, visit <%= link_to "PayPal.com", "http://www.paypal.com" %>.</p>
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>
+

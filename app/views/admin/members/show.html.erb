@@ -1,0 +1,30 @@
+<h3>Member Information</h3>
+
+<p class="form_link"><%= link_to 'Show me all members', admin_members_path %> | <%= link_to 'I want to edit this information', edit_admin_member_path(@member) %> | <%= (@member.suspended?) ? link_to('Unsuspend this member', unsuspend_admin_member_path(@member), :method => :put) : link_to('Suspend this member', suspend_admin_member_path(@member), :method => :put) %> | <%= link_to 'Purge this member', purge_admin_member_path(@member), :method => :delete %></p>
+
+<div class="member_form">
+  <div class="form_left">
+    
+   <h4>Basic Information</h4>
+   
+   <p>Name: <%= @member.name  %></p>
+   
+   <p>Login: <%= @member.login  %></p>
+
+   <p>Email: <%= @member.email  %></p>
+   
+   <p>Password: Hidden for security purposes</p>
+   
+   <p>Member Since: <%= @member.created_at %></p>
+    
+  </div>  
+  
+  <div class="form_right protected">
+    <p>Their information is safe with us.  We will never sell your email address to any third-parties.</p>
+    <p>Their password is not displayed for their protection.  If you would like to change their password,
+      select the edit link above.</p>
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>

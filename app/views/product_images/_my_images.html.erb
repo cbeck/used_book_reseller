@@ -1,0 +1,18 @@
+<div class="right">
+  <%= link_to "Upload New Image", new_product_product_image_url(@product), :class=>"green_button long right" %>
+</div>
+<div class="left">
+  <% unless @product.product_images.empty? %>
+    <ul id="product_images">
+    <% @product.product_images.each do |pi| -%>
+      <li id="product_image_<%=pi.id%>"><%= image_tag formatted_show_featured_product_product_image_path(@product, pi, :png), :class=>"product" %> <%= link_to_remote(image_tag("bin.png"), :url => [@product, pi], :method => :delete)%></li> 
+    <% end -%>    
+    </ul>      
+  <% else %>
+    None uploaded.
+    <% if @product.use_amazon_image_as_default? %>
+      <p class="details bump_down">The image you are using was downloaded for you. You are welcome to use this image, and will not need to do anything. However,
+       if you would rather upload your own image(s) to use for your product, click the "Upload New Image" button.</p>
+     <% end %>
+  <% end %>
+</div>

@@ -1,0 +1,8 @@
+<% metro_area_name = (@metro_area.blank?) ? "" : @metro_area.name %>
+<div id="filters">
+  <p class="bump_left"><%= metro_area_name %></p>
+</div>
+<h2>Search <span class="header_link"><%=link_to_remote 'set my metro area', :url => change_browser_freecycles_path(:to => "metro_areas", :metro_area_name => metro_area_name)%></span></h2>
+<div id="share_browser_content" class="box_interior">
+  <%= render :partial => "search_box" %>
+</div>

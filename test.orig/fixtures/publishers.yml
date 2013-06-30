@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+winter:
+  id: 1
+  name: Winter Promise
+  url: http://www.winterpromise.org
+sonlight:
+  id: 2
+  name: Sonlight
+  url: http://www.sonlight.com

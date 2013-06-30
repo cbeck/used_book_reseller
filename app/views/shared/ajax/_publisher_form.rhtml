@@ -1,0 +1,8 @@
+<div id="publisher_form">
+  <% form_remote_tag :url => {:controller => 'publishers', :action => 'create'} do %> 
+  <p><label for="product_publishers">Publisher Name</label><br/>
+    <%= text_field 'publisher', 'name' %>
+  </p>
+  <%= submit_tag 'Add...' %> 
+  <% end %> 
+</div>

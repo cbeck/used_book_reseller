@@ -1,0 +1,13 @@
+<div id="detail_seller" class="box third_span right">
+  <h2>About the Seller</h2>
+  <div id="detail_seller_content" class="box_interior">
+    <p><%= link_to seller.name, profile_seller_path(seller) %></p>
+    <% unless seller.city.blank? %>
+      <p><%= seller.city %>, <%= seller.state %></p>
+    <% end %>
+    <p class="bump_down"><%= render_seller_rating seller %></p>
+    <ul class="bump_down">
+      <li><%= link_to "Contact This Seller", new_message_path(:product => @product), :class => "green_button long" %></li> 
+    </ul>
+  </div>
+</div>

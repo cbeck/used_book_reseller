@@ -1,0 +1,50 @@
+<h2 class="emphasized really">Read This! Beta Testing Special!</h2> 
+<p class="really larger no_top">Thanks for signing up during our Beta test. The only account we are offering at the moment is the <span class="emphasized">FREE</span> account, but during the 
+  Beta test, there will be <span class="emphasized">NO LIMITS</span> on how many items you can sell. Happy Selling!</p>
+
+<div id="account_grid" class="box green full_span bump_down">
+  <h2>Almost There! Choose Your Account Type</h2>
+  <div id="account_grid_content" class="box_interior form">
+    <table id="accounts" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th class="empty"></th>
+          <% @account_types.each do |account_type| %>
+            <th>          
+                <%= account_type.name %><br/>
+                <span class="price">
+                  <% unless account_type.pricing_tbd? -%>
+                    <%= account_type.price.format %><%=" / yr" unless account_type.is_free? %>
+                  <% else -%>
+                   Price TBD
+                  <% end %>
+                </span>
+                <% if account_type.allow_signup? %>
+                <% form_for @account, :id => dom_id(account_type) do |f| %>
+                    <%= hidden_field_tag "account[account_type_id]", account_type.id %>
+                    <%= submit_tag "Sign Up" %>
+                <% end %>
+                <% else %>
+                <br/><span class="not_as_emphasized">Coming Soon!</span>
+                <% end %>
+             </th>
+          <% end %>
+      </thead>
+      <tbody>
+        <% @account_features.each do |account_feature| %>
+          <tr>
+            <th class="feature"><%= account_feature.description %></th>
+            <% @account_types.each do |acct_type| %>
+              <td class="<%= 'empty' unless account_feature.account_types.include?(acct_type) || ['yearly_sales_limit_lifted', 'sold_item_fees'].include?(account_feature.name)  -%>"><%= render_account_feature_content(acct_type, account_feature) %></td>
+            <% end %>            
+          </tr>              
+        <% end %> 
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,7 @@
+show_ajax_flash_messages({},page)
+page["product_#{params[:product_id]}"].visual_effect :fade
+page.select('div#notice' ).each { |div| div.hide }
+if @reload
+  product = Product.next_available
+  page['reloadable'].replace_html :partial => 'shared/small_product', :locals => {:product => product}
+end

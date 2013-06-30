@@ -1,0 +1,20 @@
+<% edit ||= false %>
+<tr class="row_item <%= cycle('odd', 'even')%>" id="<%= dom_id(freecycle)%>">
+  <td>
+    <p><%= link_to h(freecycle.name), freecycle %></p>
+    <div class="description">
+      <%= textilize(freecycle.short_description) %> 
+      <p class="clear_fix"><%= link_to "read more", freecycle %></p>
+    </div>
+  </td>
+  <td class="medium">
+    <p><%= freecycle.metro_area.name %></p>
+    <p class="details">Posted on <%= freecycle.created_at.to_date %></p>
+  </td>
+  <% if edit %>
+  <td>
+    <p><%= link_to(image_tag("pencil.png"), edit_freecycle_path(freecycle)) %></p>
+    <p class="bump_down"><%= link_to_remote(image_tag("bin.png"), :url => freecycle, :method => :delete)%></p>
+  </td>
+  <% end %>
+</tr>

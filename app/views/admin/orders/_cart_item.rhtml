@@ -1,0 +1,22 @@
+<li>
+<table>
+  
+  <tr valign="top">
+  
+  <td width="80px">
+      <%= link_to(image_tag(cart_item.product.image_url, :class => "thumb", :title => h(cart_item.product.title)), product_path(cart_item.product))%>  
+  </td>
+
+  <td width="175px">
+    <p><strong><%= link_to  h(cart_item.product.title), product_path(cart_item.product) %></strong></p>
+    <p class="item_details"><%= cart_item.product.publisher_name %>, <%= cart_item.product.item_format.name %></p>
+    <p><%= cart_item.quantity %> ordered</p>
+  </td>
+  <td width="50px" align="right">
+    
+    <p><span class="price"><%= cart_item.price.format %></span></p>
+  </td> 
+  </tr>
+
+</table>
+</li>

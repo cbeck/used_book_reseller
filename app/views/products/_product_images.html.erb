@@ -1,0 +1,17 @@
+<% unless product.nil? %>
+  <div id="detail_images" class="box third_span right">
+    <h2>Product Images</h2>
+    <div id="detail_images_content" class="box_interior">
+      <% unless product.product_images.empty? && product.small_image_url.nil? %> 
+      <ul id="product_images" class="featured"> 
+        <% if product.use_amazon_image_as_default? %>
+          <li><%= lightbox_to(product.small_image_url, product.full_image_url, "#{h(@product.title)}", "thumb product", "prod_images") %></li>
+        <% end %>      
+        <% product.product_images.each do |pi| -%>
+          <li><%= lightbox_to(formatted_show_thumb_product_product_image_path(product, pi, :png), formatted_show_full_product_product_image_path(product, pi, :png), "#{h(product.title)}", "thumb product", "prod_images") %></li>       
+        <% end -%>
+      </ul>
+      <% end %>
+    </div>
+  </div>
+<% end %>

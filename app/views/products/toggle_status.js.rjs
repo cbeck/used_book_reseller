@@ -1,0 +1,4 @@
+show_ajax_flash_messages({},page)
+
+page[:show_status_content].replace_html :partial => 'product_status'
+page[:show_status_content].visual_effect :appear

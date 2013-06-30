@@ -1,0 +1,27 @@
+<h3>Payment Types</h3>
+<p class="form_link"><%= link_to "I want to add a new payment type", new_admin_payment_type_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @payment_types.empty? %>
+        <p>There are no payment types on Schoolade thus far.</p>
+      <% else %>  
+        <ul class="listing">  
+          <%= render :partial => "payment_type", :collection => @payment_types %> 
+        </ul>
+      <% end %>
+
+</div>
+
+  
+  <div class="form_right helpful">
+
+    <p>Payment types are the types of payment allowed to be processed in the storefront.</p>
+
+
+  </div>
+
+<div class="clear_fix"></div>
+
+</div>

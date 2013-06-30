@@ -1,0 +1,20 @@
+<div class="form">
+<% remote_form_for @line_item do |f| %>
+<div class="interior_form left">
+  <p>
+  <%= f.label :carrier %> <br/>
+  <%= collection_select(:line_item, :carrier_id, Carrier.find(:all), :id, :name, {:prompt => true}) %>
+  </p>
+  <%= hidden_field_tag :aasm, "shipped!" %>
+  <%= submit_tag "Save Tracking Information"%>
+  
+</div>
+<div class="interior_form right"> 
+  <p>
+   <%= f.label :tracking_number, "Tracking Information" %><br/>
+   <%= f.text_field :tracking_number, :size => 40 %>
+   </p>
+</div>
+<% end %>
+<div class="clear_fix">&nbsp;</div>
+</div>

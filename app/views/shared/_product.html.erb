@@ -1,0 +1,19 @@
+<% 
+  show ||= false
+  no_cart ||= false
+%>
+<tr id="<%= dom_id(product) -%>" class="row_item <%= cycle("odd", "even")-%> <%=codify(product.effective_status)%>">
+  <%= render :partial => "shared/product_listing", :locals => {:product => product, :show => show, :no_cart => no_cart} %>
+  <td>
+    <p class="<%= (show || no_cart) ? "product_price" : "" %>"><%= (show || no_cart) ? product.offer_price.format : link_to_remote(render_price(product.offer_price), :url => product_line_items_url(product), :html => {:class => "product_price"} )%></p>
+    <p class="details button"><%= (show || no_cart) ? product.effective_status : link_to_remote("Add to Cart", :url => product_line_items_url(product))%></p>
+  </td>
+  <% if show %>
+  <td>
+    <% unless product.held? %>
+    <p><%= link_to(image_tag("pencil.png"), edit_product_path(product)) %></p>
+    <p class="bump_down"><%= link_to_remote(image_tag("bin.png"), :url => product, :method => :delete)%></p>
+    <% end %>
+  </td>
+  <% end %>
+</tr>

@@ -1,0 +1,8 @@
+Greetings, <%= (@recipient.respond_to? 'name') ? @recipient.name : @recipient.login %>!
+
+<%= @member.login %> at Homeschool Apple writes:
+
+<%= @message.body %>
+
+This message is in reference to the item you have listed on Homeschool Apple here:
+<%= @item_url %>

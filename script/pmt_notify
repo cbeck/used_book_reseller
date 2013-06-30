@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$1" -o -z "$2" ]; then
+    echo "usage: pmt_notify [txn_id] [order_id]"
+    exit
+fi
+
+ship_info="first_name=Joe&last_name=Schmo&payer_email=joe@schmo.com&address_street=93%20Elm%20St.&address_city=Charlotte&address_state=NC&address_zip=28277&address_country_code=US"
+
+notify_url="http://hsa.local/payment_notifications"
+
+echo "curl -d" "txn_id=$1&invoice=$2&payment_status=Completed&${ship_info}" ${notify_url}
+
+curl -d "txn_id=$1&invoice=$2&payment_status=Completed&${ship_info}" ${notify_url}

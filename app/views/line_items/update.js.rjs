@@ -1,0 +1,3 @@
+page[:tracking_content].replace_html :partial => 'tracking'
+page[:tracking_content].visual_effect :highlight
+#page[:enter_tracking].replace_html :partial => 'edit_tracking_link'

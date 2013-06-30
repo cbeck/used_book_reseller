@@ -1,0 +1,3 @@
+<li>
+  <%= member.id %>: <%= link_to member.login, [:admin, member] %> (<%= member.email %>) <%= (member.seller.blank?) ? "" : "Seller Acct: #{link_to member.seller.name, [:admin, member.seller]}"%>
+</li>

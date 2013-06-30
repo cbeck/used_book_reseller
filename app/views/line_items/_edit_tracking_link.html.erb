@@ -1,0 +1,5 @@
+<% unless @line_item.shipping_locked? %>
+  <%= link_to_remote "Edit Tracking Info", :url => edit_line_item_path(@line_item), :method=>:get, :html => {:id => "enter_tracking"} %>
+<% else %>
+  Item Already Shipped
+<% end %>

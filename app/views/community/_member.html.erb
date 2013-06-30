@@ -1,0 +1,15 @@
+<div class="member_avatar">
+      <% unless member.avatar.nil? %>
+  		  <%=link_to(image_tag(formatted_show_thumb_member_avatar_path(member, member.avatar, :png), {:border => "0"}), profile_path(member.login), { :align => 'left', :class => 'thumb'})%>
+  		<% end %>
+  		<p id="follow_<%= dom_id(member) -%>">
+  		  <%= render :partial => "/shared/follow", :locals => {:member => member} %>
+      </p>
+</div>
+<div class="member_description">
+    <p><strong><%= link_to  member.login, profile_path(member.login) %></strong> <%= "(#{member.profile.name})" if member.profile %><br/>
+       <span class="item_details">Joined <%= time_ago_in_words member.created_at %> ago. <%= "Located in #{member.profile.city}, #{member.profile.state}." unless member.profile.city.blank? %></span>
+    </p>
+    <p><%= member.profile.description if member.profile %></p>
+</div>
+

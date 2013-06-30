@@ -1,0 +1,4 @@
+<h2 class="filtered">Search <span class="header_link"><%=link_to_remote 'browse', :url => change_browser_categories_path(:to => "categories")%></span></h2>
+<div id="shop_browser_content" class="box_interior">
+  <%= render :partial => "shared/search_box", :locals => {:classname=> "large_field"}%>
+</div>

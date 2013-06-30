@@ -1,0 +1,26 @@
+<h3>Publishers</h3>
+<p class="form_link"><%= link_to "I want to add a new publisher", new_admin_publisher_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @publishers.empty? %>
+        <p>There are no publishers on Schoolade thus far.</p>
+      <% else %>  
+        <ul class="listing">  
+          <%= render :partial => "publisher", :collection => @publishers %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<div class="form_right helpful">
+
+  <p>Publishers are used to further classify products.</p>
+
+
+</div>
+
+<div class="clear_fix"></div>
+
+</div>

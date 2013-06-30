@@ -1,0 +1,20 @@
+<h1>Listing metro_areas</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% for metro_area in @metro_areas %>
+  <tr>
+    <td><%=h metro_area.name %></td>
+    <td><%= link_to 'Show', metro_area %></td>
+    <td><%= link_to 'Edit', edit_metro_area_path(metro_area) %></td>
+    <td><%= link_to 'Destroy', metro_area, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New metro_area', new_metro_area_path %>

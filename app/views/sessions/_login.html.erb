@@ -1,0 +1,24 @@
+<h2>Please Log In</h2>
+<div id="session_form_content" class="box_interior large_form">
+  <% form_tag sessions_path, :id => 'login_form' do %>
+  <div>
+    <div class="left">
+    <%= label :session, :login, "My Login" %><br/>
+    <%= text_field_tag :login %>
+		
+    </div>
+     
+    <div class="left bump_right">
+    <%= label :session, :password, "Password" %><br/>
+    <%= password_field_tag 'password' %>
+    </div>
+    <div id="home_submit" class="right">
+    <%= image_submit_tag 'hsa_button_med_arrow.png', :class => "submit_button" %>
+    </div>
+    <p id="forgot_password" class="clear_fix bump_down">
+			<%=link_to 'Forgot your password?', forgot_password_path %>
+		</p>
+   </div>
+    
+  <% end %>
+</div>

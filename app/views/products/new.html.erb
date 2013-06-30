@@ -1,0 +1,81 @@
+<%= error_messages_for :product %>
+<%= show_ajax_flash_messages if @product.errors %>
+
+<% form_for @product do |f| %>
+  <div id="sell_header" class="box two_thirds_span left">
+    <h2>Tell Us About Your Item</h2>
+    <div id="sell_header_content" class="box_interior form">   
+      <% if @product.has_amazon_image? %>
+        <p class="really helpful clear_fix">We downloaded some of the information for this product for you to use as a starting point. You are free to change any of the items to suit your needs. Please check the downloaded information for accuracy.</p>
+      <% end %> 
+        <%= render :partial => "form", :object => f %>
+    </div>  
+  </div>
+  
+  <div id="sell_actions" class="box green third_span right">
+    <h2>Oops! Cancel This</h2>
+    <div id="sell_actions_content" class="box_interior">
+      <ul>
+        <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+      </ul>    
+    </div>
+  </div>
+
+  <div id="sell_details" class="box two_thirds_span left">
+    <h2>Categories And Availability</h2>
+    <div id="sell_details_content" class="box_interior form">
+      <%= render :partial => "publishing_info_form", :locals => {:form => f} %>
+    </div>
+  </div>
+
+  <div id="sell_price" class="box two_thirds_span left">
+    <h2>How Much Will You Charge?</h2>
+    <div id="sell_price_content" class="box_interior form">
+      <div class="featured left">
+        <%= f.label :product_offer_price, "Your Selling Price <b>With Shipping</b>" %><br/>
+        $<%= text_field_tag "offer_price", @product.suggested_price %>
+        <% unless @product.offer_price.blank? %><p class="details bump_right">Minimum Suggested Price<br/>(Based on online data)</p><% end %>
+      </div>
+      <%= render :partial => "price_details" %>      
+    </div>
+  </div>
+
+  <div id="sell_images" class="box two_thirds_span left">
+    <h2>Product Images</h2>
+    <div id="sell_images_content" class="box_interior">
+      <% unless @product.small_image_url.nil? %>
+      <div class="featured left">
+      <%= image_tag(@product.small_image_url)%>
+      </div>
+      <p>We downloaded this product image for your convenience. You can also easily add your own pictures by choosing "Add And Upload Product Images" below.</p>    
+        <%= f.hidden_field :small_image_url %>
+        <%= f.hidden_field :medium_image_url %>
+        <%= f.hidden_field :large_image_url %>
+      <% else %>
+       <p>You will be able to add your own product images by choosing "Add And Upload Product Images" below. Don't panic! It's easy!</p>
+      <% end %>
+    </div>
+  </div>
+
+
+<div id="sell_submit" class="box two_thirds_span left green">
+  <h2>Yes! I Am Ready</h2>
+  <div id="sell_submit_content" class="box_interior form">
+    <%= submit_tag "Add This Product"%> <%= button_to_function "Add And Upload Product Images", "$('go_to_images').value='true';$('new_product').submit()" %>
+    <%= hidden_field_tag 'go_to_images', false %>
+  </div>
+</div>
+
+<% end %> 
+
+
+<div id="fine_print" class="box two_thirds_span left">
+  <h2>The Fine Print</h2>
+  <div id="fine_print_content" class="box_interior space_out">
+  <p class="details">Use this form to add the product you would like to sell through the our curriculum store. Your product will appear alongside products from all of our other members, and it can be found in the store front by interested buyers who either browse or search our catalog.</p>
+  <p class="details">Keep in mind that per our terms of agreement, a sale of your item within our storefront is an obligation on your part to ship the item to the buyer. We will make this process very simple for you, so no worries! However, due to the fact that we collect the purchase price from the buyer on your behalf at the time of sale, we ask that you do not list anything that you are not sure about selling or intend to sell elsewhere.</p>
+  <p class="details">In the event that a product you have listed here is sold outside of Homeschool Apple before it is purchased from our storefront, we ask that you please change the status of the item to "Unavailable" immediately to prevent any confusion. Thanks, and happy selling!</p>
+  </div>
+</div>
+
+

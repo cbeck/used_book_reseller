@@ -1,0 +1,14 @@
+<h3>Edit Status</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @status] %></p>
+
+<% form_for [:admin, @status] do |f| %>
+    <%= error_messages_for :status %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Status" %>
+  </div>
+  
+ 
+<% end %>

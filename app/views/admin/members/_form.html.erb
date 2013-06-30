@@ -1,0 +1,29 @@
+<div class="member_form">
+  <div class="form_left">
+    
+    <h4>Basic Information</h4>
+   <p><label for="member_login">Login</label><br/>
+        <%= form.text_field :login  %></p>
+
+    <p><label for="member_email">Email</label><br/>
+        <%= form.text_field :email  %></p>
+
+    <p><label for="member_password">Password</label><br/>
+        <%= form.password_field :password  %></p>
+
+    <p><label for="member_salt">Confirm Password</label><br/>
+        <%= form.password_field :password_confirmation  %></p>
+    
+  </div>  
+  
+  <div class="form_right protected">
+    <p>Your information is safe with us.  We will never sell your email address to any third-parties.</p>
+    <% unless logged_in? %>
+      <p>If you already have an account with <%=SITE_NAME%>, fill in your login and password 
+				 in the Login Box to the right to be taken directly to your product sales page.</p>
+    <% end %>
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>

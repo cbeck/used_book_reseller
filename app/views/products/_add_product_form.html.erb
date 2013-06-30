@@ -1,0 +1,7 @@
+<% form_tag new_product_path do %>
+<% path = "Application.popup('#{isbn_explanation_path}');" %>
+  <%= label :product, :isbn, "ISBN Number or Title of New Product" %> <%= link_to_function "What Is This?", "#{path}", :class=> "details bump_right baseline" %>
+  <%= text_field :product, :isbn, :size => 15, :class => "large_field" %>
+  <%= image_submit_tag 'hsa_button_big_arrow.png', :class => "submit_button" %>
+  <p class="details">If your product has an ISBN, we can save you some typing. If not, no worries! Just enter a title for your product.</p>
+<% end %>

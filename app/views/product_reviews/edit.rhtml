@@ -1,0 +1,12 @@
+<h1>Editing product_review</h1>
+
+<%= error_messages_for :product_review %>
+
+<% form_for(:product_review, :url => product_review_path(@product_review), :html => { :method => :put }) do |f| %>
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', product_review_path(@product_review) %> |
+<%= link_to 'Back', product_reviews_path %>

@@ -1,0 +1,21 @@
+<li id="<%=line_item.id%>">
+<table>
+  
+  <tr id="line_item_<%=line_item.id%>" valign="top">
+  <td width="80px">
+      <%= link_to(image_tag(line_item.product.image_url, :class => "thumb", 
+						:title => h(line_item.product.title)), buyer_line_item_path(line_item))%>           
+  </td>
+  <td width="600px">
+    <p><strong><%= link_to  h(line_item.product.title), buyer_line_item_path(line_item) %></strong></p>
+    <p class="item_details"><%= line_item.product.publisher_name %>, <%= line_item.product.item_format.name %>, Id: <%= line_item.product.id %></p>
+    <p><%= line_item.quantity %> purchased</p>
+    <p>Sold by <%= link_to line_item.product.seller.name, member_seller_path(current_member, line_item.product.seller) %>
+  </td>
+  <td width="50px" align="right">   
+    <p><span class="price"><%= line_item.total_price.format %></span></p>
+  </td> 
+  </tr>
+
+</table>
+</li>

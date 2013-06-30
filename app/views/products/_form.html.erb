@@ -1,0 +1,114 @@
+<% content_for("page_scripts") do -%>
+<script type="text/javascript">
+function toggle_downloadable_info() {
+	$$('p.published').each(Element.toggle);
+	$$('div.downloadable').each(Element.toggle);
+}
+</script>
+<% end -%>
+
+    <p>
+      <%= form.label :title %><br/>
+      <%= form.text_field :title, :size => 45 %>
+    </p>
+	  
+		<% if APP_CONFIG[:allow_self_publish] -%>
+		<p>
+			Self-published, downloadable item? 
+			<%= check_box_tag :downloadable, "1", false, :onclick => 'toggle_downloadable_info();' %>
+		</p>
+		<% end -%>
+		
+		<div class="downloadable" style="display: none; margin-bottom: 1em;">
+			<h5>Be Your Own Publisher!</h5>
+			<p>
+				Self-publishing is an exciting new feature on HomeschoolApple.  We know that homeschoolers are industrious
+			folk and often create their own curriculum.
+			</p>
+			
+			<p>
+				Whether it be unit studies, maps, overviews, study guides or screenplays, 
+				you now have a way to offer your creation to others at whatever price you want.
+				Share your hard work with others.  Start a small business.  The possibilities are endless.
+			</p>
+		</div>
+		
+		<div class="downloadable" style="display: none; margin-bottom: 1em;">
+			<h5>Terms</h5>
+			<p>
+				Self-published products are only available for <em>items that may be downloaded</em>.
+			</p>
+			
+			<p>
+				By uploading a product to our site, you acknowledge that you are either the creator of the product
+				or have permission from the creator to offer it for sale on this site.  You also agree to be
+				held solely responsible for any copyright violation related to the sale of this product.
+			</p>
+			
+			<p>
+				HomeschoolApple does not claim any ownership or rights to this product.  
+				You may cease to offer the item at any time.  
+			</p>
+			
+			<p>
+				While you may charge any amount that you like,
+				we will deduct 20% or $1.00 (whichever is greater) of the final price as a transaction fee 
+				on the sale.  This fee will cover all Paypal, storage and download fees associated with your
+				product.
+			</p>
+			
+			<p>
+				All items offered for download will be reviewed by our staff before they are made publicly
+				available.  Any product may be removed from the site at our discretion at any time.
+			</p>
+
+			Click here if you understand and agree to these terms: <%= check_box_tag :downloadable, "1", false %>
+		</div>
+
+		<% unless @no_isbn %>
+		   <p class="published">
+		     <% path = "Application.popup('#{isbn_explanation_path}');" %>
+		      <%= link_to_function "What Is This?", "#{path}", :class=> "details right" %>
+		     <%= form.label :isbn, "ISBN Number" %><br/>
+		     <%= form.text_field :isbn, :size => 45%>
+		     <span class="details">0-7364-1266-2 or 031606792X or 978-1-59184-223-1 or 080113766</span>
+		   </p>
+		<% end %>
+		
+    <p class="published">
+      <%= form.label :publisher_name %><br/>
+      <%= form.text_field :publisher_name, :size => 45 %>
+    </p>
+ 
+    <p>
+      <%= form.label :author, "Author(s)" %><br/>
+      <%= form.text_field :author, :size => 45 %><br/>
+      <span class="details">Carrie Beck, Chris Beck, Scott Nedderman</span>
+    </p>
+ 
+   	<%= render :partial => "item_formats" %>
+
+    <p class="published">
+      <%= form.label :condition %><br/>
+      <%= form.collection_select :condition_id, Condition.all, :id, :description %><br/>      
+    </p>
+    <p class="published">
+      <%= form.label :condition_comments, "Comments About Condition" %> <span id="condition_comments_required">(Optional)</span><br/>
+      <%= form.text_field :condition_comments, :size => 45 %>
+    </p>
+    
+    <p class="published">
+      <%= form.check_box :nonsmoking_home %> <%= form.label :nonsmoking_home, "Kept in non-smoking home" %><br/>
+      <%= form.check_box :no_pets_in_home %> <%= form.label :no_pets_in_home, "Kept in home with no pets" %>
+    </p>
+	  
+    <p>
+      <% path = "Application.popup('#{textile_explanation_path}');" %>
+       <%= link_to_function "Formatting Help", "#{path}", :class=> "details right" %><%= form.label :description %><br/>
+      <%= form.text_area :description, :cols => 49 %>
+    </p>
+   
+  
+  
+
+

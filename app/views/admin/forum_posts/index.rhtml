@@ -1,0 +1,18 @@
+<h1>Listing forum_posts</h1>
+
+<table>
+  <tr>
+  </tr>
+  
+<% for forum_post in @forum_posts %>
+  <tr>
+    <td><%= link_to 'Show', forum_post_path(:forum_id => @forum, :id => forum_post) %></td>
+    <td><%= link_to 'Edit', edit_forum_post_path(:forum_id => @forum, :id => forum_post) %></td>
+    <td><%= link_to 'Destroy', forum_post_path(:forum_id => @forum, :id => forum_post), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New forum_post', new_forum_post_path(:forum_id => @forum) %>

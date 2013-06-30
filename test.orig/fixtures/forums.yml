@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+general_forum:
+  id: 1
+  name: General
+  description: a general forum
+  created_at: <%= 5.days.ago.to_s :db %>
+  forum_group_id: 1
+  enabled: 1
+noodle_forum:
+  id: 2
+  name: Noodle
+  description: a forum about pasta
+  created_at: <%= 3.days.ago.to_s :db %>
+  forum_group_id: 1
+  enabled: 1

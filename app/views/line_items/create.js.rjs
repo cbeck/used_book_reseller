@@ -1,0 +1,9 @@
+show_ajax_flash_messages({},page)
+page[dom_id(@line_item.product)].visual_effect :fade unless @line_item.product.available?
+page.select('div#notice' ).each { |div| div.hide }
+page[:cart].replace_html :partial => 'shared/cart', :object => @cart
+page[:cart].visual_effect :appear if @cart.item_count == 1
+if @reload
+  product = Product.next_available
+  page['reloadable'].replace_html :partial => 'shared/small_product', :locals => {:product => product}
+end

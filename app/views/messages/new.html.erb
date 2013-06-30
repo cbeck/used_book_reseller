@@ -1,0 +1,32 @@
+<div id="message_header" class="box full_span">
+  <h2>New Message</h2>
+  <div id="message_header_content" class="box_interior space_out">    
+    <% form_for :message, :url => {:action => :create} do |form| %>
+    <%= error_messages_for :message %>
+    <% subject_text = "[HSA] I am interested in "%>
+    <% if @freecycle %>
+      <%= hidden_field_tag :freecycle, @freecycle.id %>
+      <% subject_text += @freecycle.name %>
+    <% elsif @product %>
+      <%= hidden_field_tag :product, @product.id %>
+      <% subject_text += @product.title %>
+    <% end %>
+      <p>
+        <%= form.label :subject %><br/>
+        <%= text_field_tag 'message[subject]', subject_text, :size => 50 %>        
+      </p>
+      <p>
+        <%= form.label :body %><br/>
+        <%= form.text_area :body, :cols => 54 %>
+      </p>   
+      <p>
+        <%=  submit_tag "Send" %>
+      </p> 
+      <% if @freecycle %>
+        <%= hidden_field_tag :freecycle, @freecycle.id %>
+      <% elsif @product %>
+        <%= hidden_field_tag :product, @product.id %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

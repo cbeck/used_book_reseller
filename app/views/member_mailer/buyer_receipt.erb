@@ -1,0 +1,19 @@
+You have purchased the following items:
+
+<% @order.line_items.each do |item| %>
+ <%=item.quantity%> <%=item.total_price.format%> <%=item.product.title%>
+<% end %>
+
+subtotal: <%=@order.sub_total.format %>
+shipping: included
+handling: <%=@order.transaction_fee.format %>
+total:    <%=@order.total_price.format%>
+
+These item(s) will be shipped to:
+
+<%=@order.name%>
+<%=@order.address_line_1%>
+<%=@order.city%>, <%=@order.state%> <%=@order.zip%>
+<%=@order.country%>
+
+view your order: <%=order_url(@order) %>

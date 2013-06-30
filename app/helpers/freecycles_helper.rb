@@ -1,0 +1,2 @@
+module FreecyclesHelper
+end

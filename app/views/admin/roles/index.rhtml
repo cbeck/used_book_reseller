@@ -1,0 +1,26 @@
+<h3>Roles</h3>
+<p class="form_link"><%= link_to "I want to add a new role", new_admin_role_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @roles.empty? %>
+        <p>There are no established roles on Schoolade thus far.</p>
+      <% else %>  
+        <ul class="listing">  
+          <%= render :partial => "role", :collection => @roles %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<div class="form_right protected">
+  
+  <p>Roles are used to restrict access to certain parts of the site.  This area is one that will be further developed as time goes on.</p>
+  
+
+</div>
+
+<div class="clear_fix"></div>
+
+</div>

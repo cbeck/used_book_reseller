@@ -1,0 +1,14 @@
+<h3>Edit Category</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @category] %></p>
+
+<% form_for [:admin, @category] do |f| %>
+    <%= error_messages_for :category %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Category" %>
+  </div>
+  
+ 
+<% end %>

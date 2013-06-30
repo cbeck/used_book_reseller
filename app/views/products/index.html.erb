@@ -1,0 +1,29 @@
+<div id="sell_form" class="box green_gray full_span">
+  <h2>Add A Product to Sell</h2>
+  <div id="sell_form_content" class="box_interior large_form">
+    <%= render :partial => "add_product_form"%>
+  </div>
+</div>
+
+<div id="sell_products" class="box full_span">
+  <div id="filters">
+    <%= link_to "view sold items", line_items_path%>
+  </div>
+  <h2>My Available Products</h2>
+  <div id="sell_products_content" class="box_interior">
+    <% if @products.empty? %>
+      <% if @seller.line_items.blank? %>
+        <p>You have not added any products to your store yet. <%= link_to "Add one now.", new_product_path %></p>
+      <% else %>
+        <p>You are currently sold out of products on Homeschool Apple. That's awesome! <br/>To view your sales, <%= link_to "go here", line_items_path %>.</p>
+      <% end %>
+    <% else %>
+      <p><%= @seller.available_products_count %> Available For Sale </p>
+      <table>
+        <%= render :partial => "shared/product", :collection => @products, :locals => {:show => true} %>
+      </table>
+    <% end %>
+  </div>
+</div>
+
+

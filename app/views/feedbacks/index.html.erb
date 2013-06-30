@@ -1,0 +1,12 @@
+<div id="sell_feedback" class="box full_span">
+  <h2>Feedback Left For You</h2>
+  <div id="sell_feedback_content" class="box_interior">
+    <% if @feedback.empty? %>
+     <p>So far you have received no feedback from your buyers or you have not sold any products yet.</p>
+    <% else %>
+      <table>
+        <%= render :partial => @feedback %>
+      </table>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<p>
+  <%= form.label :name %><br />
+  <%= form.text_field :name %>
+</p>
+<p>
+  <% path = "Application.popup('#{textile_explanation_path}');" %>
+   <%= link_to_function "Formatting Help", "#{path}", :class=> "details right" %><%= form.label :description %><br/>
+  <%= form.text_area :description, :cols => 49 %>
+</p>

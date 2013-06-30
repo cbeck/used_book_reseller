@@ -1,0 +1,14 @@
+<h3>New Account Type</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to add this after all", admin_account_types_path %></p>
+
+<% form_for [:admin, @account_type] do |f| %>
+    <%= error_messages_for :account_type %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Create Account Type" %>
+  </div>
+  
+ 
+<% end %>

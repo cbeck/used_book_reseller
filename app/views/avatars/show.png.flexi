@@ -1,0 +1,3 @@
+@avatar.operate do |image|
+  image.resize '200x200'
+end

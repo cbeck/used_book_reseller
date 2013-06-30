@@ -1,0 +1,10 @@
+show_ajax_flash_messages({},page)
+
+page.select('div#notice' ).each { |div| div.hide }
+page.select('tr.product_item' ).each { |row| row.hide }
+page[:order_products_content].replace_html "Your cart is empty."
+page[:cart_total].replace_html "$0.00"
+page[:pay_pal_button].replace_html ""
+page[:empty_cart_link].replace_html "#{link_to 'Continue Shopping', categories_path}"
+page[:cart].replace_html :partial => 'shared/cart' , :object => @cart
+page[:cart].visual_effect :fade

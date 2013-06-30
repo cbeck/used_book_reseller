@@ -1,0 +1,9 @@
+first:
+  account_feature_id: 1
+  account_type_id: 1
+another:
+  account_feature_id: 2
+  account_type_id: 1
+and_another: 
+  account_feature_id: 2
+  account_type_id: 2

@@ -1,0 +1,16 @@
+<% seller ||= false %>
+<% path = (seller) ? line_item_path(unshipped_item) : buyer_line_item_path(unshipped_item) %>
+<tr id="unshipped_<%= dom_id(unshipped_item)%>" class="row_item <%= cycle('odd', 'even')%>">
+  <td class="small"> 
+    <% title = "#{h(unshipped_item.product.title)}. Sold #{(unshipped_item.order.purchased_at.blank?) ? "some time" : time_ago_in_words(unshipped_item.order.purchased_at)} ago"%> 
+    <%= link_to(image_tag(unshipped_item.product.image_url, :class => "thumb product", :title => title), path)%>
+  </td>
+  <td>    
+    <p class="details title"><%= link_to h(unshipped_item.product.title), path %></p>
+    <p class="details">Ship to <%= unshipped_item.order.name %></p>
+    <p class="details"><%= unshipped_item.order.city %>, <%= unshipped_item.order.state %></p>    
+  </td>
+  <td>
+    <p class="text_right"><%= unshipped_item.total_price.format %></p>
+  </td>
+</tr>

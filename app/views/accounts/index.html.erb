@@ -1,0 +1,59 @@
+<div id="show_header" class="box two_thirds_span left">
+  <div id="filters">
+   <%=link_to 'edit', edit_member_path(current_member) %>
+  </div>
+  <h2>My Account Information</h2>
+  <div id="show_header_content" class="box_interior">    
+    <!-- save for avatar 
+    <div class="featured left">
+    <%#= image_tag(@product.med_image_url, :class => "product") %>
+    </div>
+    <-->
+    <div class="form">
+      <p>Login Id: <%= current_member.login %><br/>
+        Password: Hidden for your protection <%= link_to "Change", edit_member_path(current_member) %></p>
+      <p>Joined: <%= time_ago_in_words(current_member.created_at) %> ago</p>
+    </div>
+  </div>
+</div>
+
+<div id="show_actions" class="box green third_span right">
+  <h2>Account Options</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>             
+      <% if current_member.seller %>
+      <li><%= link_to 'Edit My Login Info', edit_member_path(current_member), :class => "green_button long", :title => "Edit my info" %></li>
+        <li class="bump_down"><%= link_to 'Edit My Seller Information', edit_member_seller_path(current_member, current_member.seller) %></li>
+      <% else %>
+        <li><%= link_to "Become a Seller", products_path, :class => "green_button long", :title => "Create a FREE seller account" %>
+          <p class="details button">(FREE!)</p>
+        </li>
+        <li class="bump_down"><%= link_to 'Edit My Login Info', edit_member_path(current_member) %></li>
+      <% end %>          
+    </ul>    
+  </div>
+</div>
+
+<div id="show_status" class="box third_span right">
+  <h2>Links to Your Items</h2>
+  <div id="show_status_content" class="box_interior">
+    <ul>
+      <li><%= link_to 'My Purchases', orders_path %></li> 
+      <li><%= link_to 'My Products', products_path %></li>
+      <li><%= link_to 'My Sales', line_items_path %></li>
+      <li><%= link_to 'Items I Need To Ship', unshipped_line_items_path %></li>
+      <li><%= link_to 'My Feedback', feedbacks_path %></li>
+    </ul>
+  </div>
+</div>
+
+<%= render :partial => "sellers/seller", :object => current_member.seller %>
+
+
+
+
+
+
+
+
+

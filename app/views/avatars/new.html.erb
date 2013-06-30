@@ -1,0 +1,38 @@
+<h3>Upload an Avatar for <%= current_member.login %></h3>
+
+<% form_for [current_member, @avatar], :html => {:multipart => true} do |f| %>
+
+ 
+<div class="user_form">
+  <div class="form_left">
+    
+    <h4>Upload Image</h4>
+   
+   <p><label for="image_data">Choose An Image from My Computer</label><br/>
+        <%= f.file_field :image_file %></p>
+   
+  <p><label for="image_data">or Upload and Image from the Internet</label><br/>
+      <%= f.text_field :image_file_url %></p>
+   
+   <p>Images on your computer or from the Internet can be in any of popular image formats.  Most cameras create images in .jpg format, which is perfect
+     for product images.</p>
+
+  </div>  
+  
+  <div class="form_right helpful">
+    <p>Images larger than 640 pixels square will be resized automatically by our system.</p>
+    
+    <p>If you are unsure about any of this, relax! Just upload the picture by using the form and let our computers do the rest.  If you make
+      a mistake or don't like the picture, you will be able to easily remove it.</p>
+      
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>
+<div class="form_submit">
+ <%= f.submit "Upload this Image" %>
+</div>
+    
+
+<% end %>

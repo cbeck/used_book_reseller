@@ -1,0 +1,2 @@
+module MediaMailsHelper
+end

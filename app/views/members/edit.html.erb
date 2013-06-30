@@ -1,0 +1,23 @@
+<div id="member_form" class="box two_thirds_span left">
+  <h2>Update Your Account Information</h2>
+  <div id="member_form_content" class="box_interior form">
+    <% form_for current_member do |f| %>
+      <%= error_messages_for :member %>
+      <%= render :partial => "form", :object => f %>
+
+      <p><%= submit_tag "Update My Information" %></p>      
+
+    <% end %>
+    <p class="details">Your information is safe with us.  We will never sell your email address to any third-parties.</p>
+  </div>
+</div>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>Oops! Cancel This</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>
+

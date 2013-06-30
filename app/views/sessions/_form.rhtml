@@ -1,0 +1,25 @@
+<div class="user_form">
+  <div class="form_left">
+    
+    <h4>Who Are You?</h4>
+   
+   <p><label for="session_login">My Login</label><br/>
+        <%= text_field_tag 'login' %></p>
+
+    <p><label for="session_password">Password</label><br/>
+        <%= password_field_tag 'password' %></p>
+
+    
+    <p><label for="session_remember_me"><%= check_box_tag 'remember_me' %> Remember My Login On This Computer</label></p>
+    
+  </div>  
+  
+  <div class="form_right helpful">
+    <p>No account?  <%= link_to 'Create one', new_member_path %></p>
+    <p>(Takes 30 seconds and we'll bring you right back to where you were - promise!)</p>
+  </div>
+  
+  <div class="clear_fix"></div>
+    
+</div>
+

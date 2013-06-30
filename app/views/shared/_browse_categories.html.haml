@@ -1,0 +1,10 @@
+%h4 Browse Products
+%p.spacer ~ By Subject ~		
+%ul
+  - Category.find(:all, :order => "name ASC").each do |cat| 
+    %li= link_to cat.name, category_url(cat)
+%p.spacer ~ or by ~
+%ul
+  %li= link_to "Publisher", :controller => "categories", :action => "index", :filter => "publisher_name"
+  %li= link_to "Price", :controller => "categories", :action => "index", :filter => "offer_cents"
+  %li= link_to "Most Recent", :controller => "categories", :action => "index", :filter => "id" 

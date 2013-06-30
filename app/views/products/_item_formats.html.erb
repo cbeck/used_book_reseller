@@ -1,0 +1,5 @@
+<p class="published">
+  <%= label :product_formats, "Product Format" %><br/>
+	<% item_formats = ItemFormat.find(:all, :order=>'position ASC') %>
+  <%= collection_select('product', 'item_format_id' , item_formats, 'id', 'name')  %>      
+</p>

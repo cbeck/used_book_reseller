@@ -1,0 +1,5 @@
+<p>This item was marked as shipped on <%= @line_item.shipped_at %> via <%= link_to @line_item.carrier.name, @line_item.carrier.url %> <% unless @line_item.tracking_number.blank? %>with the following tracking id: <%= @line_item.tracking_number %><% end %>.</p>
+<% unless @line_item.shipping_locked? %>
+<p class="bump_down"><%= link_to_remote "Edit Tracking Info", :url => edit_line_item_path(@line_item), :method=>:get, :html => {:id => "enter_tracking"} %></p>
+<% end %>
+

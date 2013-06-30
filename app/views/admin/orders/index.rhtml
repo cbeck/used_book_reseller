@@ -1,0 +1,45 @@
+<h3>Items That Have Been Sold</h3>
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @orders.empty? %>
+        <p>There have been no sales on <%=SITE_NAME%> so far.</p>
+		<% else %>
+			<table>
+				<tr>
+					<th width="50px" align="center">ID</th>
+					<th width="80px" align="center">Status</th>
+					<th width="150px" align="left">When</th>
+					<th width="150px" align="left">Buyer</th>
+					<th width="150px" align="left">Seller(s)</th>
+					<th align="center">Item count</th>
+					<th width="80px" align="right">Amount</th>
+				</tr>
+				<% @orders.each do |order| %>
+		  	<tr id="order_<%=order.id%>" valign="top">
+					<td align="center"><%=link_to order.id, admin_order_path(order) %></td>
+					<td align="center"><%=order.status%></td>
+				  <td><%= time_ago_in_words(order.created_at) %> ago</td>
+				  <td><% if order.member.blank? %>
+				      Anonymous 
+				      <% else %>
+				        <%= order.member.name%> (<%=link_to order.member.login, admin_member_path(order.member)%>)
+				      <% end %>
+				  </td>
+					<td>
+						<%= order.line_items.collect{|i|
+									link_to i.seller.name, admin_seller_path(i.seller)
+								}.uniq.to_sentence %>
+				  </td>
+					<td align="center"><%=order.item_count%></td>
+				  <td align="right">
+				    <p><span class="price"><%= order.total_price.format %></span></p>
+				  </td> 
+				</tr>
+				<% end %>
+			</table>
+		<% end %>
+
+</div>
+
+</div>

@@ -1,0 +1,16 @@
+<%= render :partial => "search_block" %>
+
+<div id="search_products" class="box full_span">
+  <div id="filters">
+    by <%=link_to 'latest', path_with_filter("id"), :class => "#{'selected' if @filter == 'id'}"%>
+  	<%=link_to 'title', path_with_filter("name"), :class => "#{'selected' if @filter == 'name'}"%>
+  	<%=link_to 'metro', path_with_filter("metro_area_id"), :class => "#{'selected' if @filter == 'metro_area_id'}"%>
+  </div>
+  <h2>Your Search Results</h2>
+  <div id="search_products_content" class="box_interior">
+    <p>Your search "<%= (@metro_area.blank?) ? params[:q] : (params[:q].blank?) ? @metro_area.name : params[:q] + ' in ' + @metro_area.name %>" produced <%=pluralize @freecycles.size, "result"%></p>
+    <table class="full">
+        <%= render :partial => "freecycle", :collection => @freecycles %>
+    </table>
+  </div>
+</div>

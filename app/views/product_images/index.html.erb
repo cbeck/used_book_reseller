@@ -1,0 +1,52 @@
+<div id="show_images" class="box dark_gray full_span">
+  <h2>Product Images for <%= @product.title %></h2>
+  <div id="show_images_content" class="box_interior form">
+    <% unless @product.has_product_images? %>
+      <p>Adding images to products on <%=SITE_NAME%> is easy! Just click the button...</p>
+      <p class="bump_down"><%= link_to 'Upload Images Now', new_product_product_image_url(@product), :class=> "green_button long"%></p>
+    <% else %>  
+      <% if @product.has_amazon_image? %>
+        <h3>Set Main Image</h3>
+         <p>Choose the main image for your product. You can choose the suggested image or an image that you have uploaded yourself.</p>
+          <p>If you choose your own image and you have uploaded more than 
+            one, the first one in your "My Images" list will be the main image. You can reorder the images by dragging and dropping.</p>
+            <p>All additional images will appear in the product description.</p>   
+          <div id="set_default_image_button">
+            <%= render :partial => "use_amazon_button" %>
+          </div>
+      <% else %>
+        <p>The first image in the list is the main image for your product. You can reorder the list by dragging and dropping the images on this page. All images 
+          will appear in the product description.</p>
+        <%= render :partial => "my_images" %>
+      <% end %>
+    <% end %>
+    <p class="clear_fix">&nbsp;</p>
+  </div>
+</div>
+<% if @product.has_product_images? && @product.has_amazon_image? %>
+  <div id="suggested_image" class="box third_span left">
+    <h2>Suggested Image</h2>
+    <div id="suggested_image_content" class="box_interior form">
+      <%= image_tag @product.small_image_url, :class=>"product"%>
+    </div>
+  </div>
+  <div id="my_images" class="box two_thirds_span right">
+    <h2>My Images</h2>
+    <div id="my_images_content" class="box_interior form">
+      <%= render :partial => "my_images" %>
+    </div>
+  </div>
+<% end %>
+
+<div id="show_actions" class="box green full_span">
+  <h2>Finished With This?</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Continue", @product, :class => "green_button long" %></li>      
+    </ul>    
+  </div>
+</div>
+
+<%= sortable_element 'product_images',
+{:url => sort_product_images_product_path(@product), :method => :post}
+%>

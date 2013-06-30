@@ -1,0 +1,13 @@
+<h3>Edit My Login Information</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", member_profile_path(current_member, @profile) %></p>
+
+<%= error_messages_for :profile %>
+
+<% uberform_for [current_member, @profile] do |f| %>
+  <%= render :partial => "form", :object => f %>
+  <br/>
+  <div class="form_submit clear_fix">
+  <%= submit_tag "Update My Profile" %>
+  </div>
+<% end %>
+

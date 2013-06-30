@@ -1,0 +1,29 @@
+<h2>Admin Options</h2>
+<p class="bump_down">We got fun and games.  We got everything you want, honey we know the names...</p>
+
+<%=render :partial => 'quick_stats'%>
+
+<h3>Setup Options</h3>
+<ul>
+<li><%= link_to "Account Types", admin_account_types_url %></li>
+<li><%= link_to "Account Features", admin_account_features_url %></li>
+<li><%= link_to "Payment Types", admin_payment_types_url %></li>
+</ul>
+<h3>Order Maintenance</h3>
+<ul>
+<li><%= link_to "Orders", admin_orders_url %></li>
+</ul>
+<h3>Member Maintenance</h3>
+<ul>
+<li><%= link_to "Members", admin_members_url %></li>
+<li><%= link_to "Roles", admin_roles_url %></li>
+</ul>
+<h3>Product Maintenance</h3>
+<ul>
+  <li><%= link_to "Categories", admin_categories_url %></li>
+  <li><%= link_to "Publishers", admin_publishers_url %></li>
+<li><%= link_to "Item Formats", admin_item_formats_url %></li>
+<li><%= link_to "Statuses", admin_statuses_url %></li>
+
+
+</ul>

@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+math:
+  id: 1
+  name: Math
+grammar:
+  id: 2
+  name: Grammar
+science:
+  id: 3
+  name: Science

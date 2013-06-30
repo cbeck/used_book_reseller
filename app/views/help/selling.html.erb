@@ -1,0 +1,25 @@
+<h3>Common Questions About Selling</h3>
+<dl>
+  <dt><%= link_to_function "What is up with the credit card processing fee?", "$('fee').toggle()"%></dt>
+    <div id="fee" class="faq_answer" style="display:none;">
+      <dd><p>Unfortunately, all credit card processors charge a fee when the buyer checks out. This fee will be deducted from the proceeds of your sale when we transmit your payment or mail you your check. We recommend you consider this fee when you are pricing your item.</p><p>The fee is $.35 plus 3% of the total sale price. For example, the fee on a $25 item would be $1.10. In order to receive $25 from us for the item in our example, set your price at $26.10.</p></dd>
+    </div>
+<dt><%= link_to_function "Do I have to use Media Mail?", "$('media_mail').toggle()"%></dt>
+  <div id="media_mail" class="faq_answer" style="display:none;">
+    <dd>Absolutely not. You are free to use any shipping provider you choose. Media Mail is recommended for most books and media packages, as the rates are generally lower. However, this is not always the case. We do request that you choose a method that provides tracking information, if possible, in order to expedite the disbursement of your profits. 
+     <% path = "Application.popup('#{shipping_explanation_path}');" %>
+     <%= link_to_function "Learn More", "#{path}" %></dd>
+  </div>
+<dt><%= link_to_function "Can I add optional insurance?", "$('insurance').toggle()"%></dt>
+  <div id="insurance" class="faq_answer" style="display:none;">
+    <dd>Not at this time, though we are working on that. If you feel that you need to add insurance to your items, the best approach would be to add the cost of the insurance to the price of the item above, then advertise that the item comes with insurance in the listing.</dd>
+  </div>
+<dt><%= link_to_function "I don't have PayPal. Can the buyer send me a check?", "$('check').toggle()"%></dt>
+  <div id="check" class="faq_answer" style="display:none;">
+    <dd>If you do not have a PayPal account, you can still be paid via check. However, that money does not come from the buyer, it comes from Homeschool Apple. We do not share your payment information with anyone. Buyers purchases are transacted through our PayPal account, then we pay you via the method you designated when you signed up to be a seller.</dd>
+  </div>
+<dt><%= link_to_function "How do I get paid?", "$('paid').toggle()"%></dt>
+  <div id="paid" class="faq_answer" style="display:none;">
+    <dd>When the buyer checks out on Homeschool Apple, we collect their funds and deposit them on your behalf into our PayPal account. Then, once you ship the item and fill in the tracking information for your sold item on the site, we release your funds during our next disbursement process. That process runs every Business day if you chose to receive your funds from us via PayPal.</dd>
+  </div>
+</dl>

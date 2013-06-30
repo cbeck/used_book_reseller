@@ -1,0 +1,5 @@
+<%= render :partial => "categories"%>
+<p class="bump_down">
+  <%= form.label :product_status, "Product Availability "%><br/>
+  <%= form.collection_select :status_id, @statuses, :id, :name %>
+</p>

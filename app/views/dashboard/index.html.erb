@@ -1,0 +1,30 @@
+<h3>Welcome to Your <%=SITE_NAME%> Dashboard!</h3>
+<div class="helpful_text">
+  <p>The Dashboard is the jump-off point for everything that you can do as a registered user on <%=SITE_NAME%>. It will show your most recent sales and purchases, any important information related to your account, and also new features for you to take advantage of.</p>
+  <p>In addition, it will provide links to all of the features <%=SITE_NAME%> offers to registered users.  If you ever get lost and can't find something on <%=SITE_NAME%>, come back to your Dashboard and all will become clear!</p>
+</div>
+
+<div class="dashboard_container">
+  <h4>Items I Need to Ship</h4>
+  <% if @unshipped_items.empty? %>
+    <p>You have no items that you need to ship.</p>
+  <% else %>
+  <ul class="listing">
+    <%= render :partial => "item", :collection => @unshipped_items %>
+  </ul>
+  <% end %>
+</div>
+
+<div class="dashboard_container">
+  <h4>Items I Have Ordered That Have Not Been Shipped</h4>
+  <% if @incomplete_orders.empty? %>
+    <p>You have no items that have not been shipped.</p>
+  <% else %>
+  <ul class="listing">
+    <%= render :partial => "order", :collection => @incomplete_orders %>
+  </ul>
+  <% end %>
+</div>
+
+
+    

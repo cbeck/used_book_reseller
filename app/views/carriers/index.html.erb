@@ -1,0 +1,24 @@
+<h1>Listing carriers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Url</th>
+    <th>Tracking url</th>
+  </tr>
+
+<% for carrier in @carriers %>
+  <tr>
+    <td><%=h carrier.name %></td>
+    <td><%=h carrier.url %></td>
+    <td><%=h carrier.tracking_url %></td>
+    <td><%= link_to 'Show', carrier %></td>
+    <td><%= link_to 'Edit', edit_carrier_path(carrier) %></td>
+    <td><%= link_to 'Destroy', carrier, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New carrier', new_carrier_path %>

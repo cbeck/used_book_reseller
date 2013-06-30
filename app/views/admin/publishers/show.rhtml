@@ -1,0 +1,24 @@
+<h3>Publisher Information</h3>
+
+<p class="form_link"><%= link_to 'Show me all publishers', admin_publishers_path %> | <%= link_to 'I want to edit this information', edit_admin_publisher_path(@publisher) %> | <%= link_to 'Delete this publisher', admin_publisher_path(@publisher), :confirm => 'Are you sure?', :method => :delete %></p>
+
+<div class="member_form">
+  <div class="form_left">
+    
+   <h4>Basic Information</h4>
+   
+   <p>Name: <%= @publisher.name  %></p>
+    
+  </div>  
+  
+  <div class="form_right helpful">
+
+    <p>Publishers are used to further classify products.</p>
+
+
+  </div>
+  
+  
+  <div class="clear_fix"></div>
+    
+</div>

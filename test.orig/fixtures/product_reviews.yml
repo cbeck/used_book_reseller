@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  isbn: 11111-11-11111
+  name: Excellent Review of Something Cool
+  author: Zaphod Beeblebrox
+  publisher: Winter Promise
+  content: This is quite simply the best thing I have ever used in my homeschool.
+  user_id: 1
+  created_at: <%= 5.days.ago.to_s :db %>
+  rating_id: 1
+two:
+  id: 2
+  isbn: 11111-11-22222
+  name: Excellent Review of Something Else Almost Cool
+  author: Zaphod Bundlewix
+  publisher: Well Trained Mind
+  content: This is quite simply the silliest thing I have ever used in my homeschool.
+  user_id: 2
+  created_at: <%= 3.days.ago.to_s :db %>
+  rating_id: 2

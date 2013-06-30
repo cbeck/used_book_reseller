@@ -1,0 +1,37 @@
+<div id="show_seller_header" class="box two_thirds_span left">
+  <div id="filters">
+   <%=link_to 'edit', edit_member_seller_path(current_member, current_member.seller) if current_member.seller %>
+  </div>
+  <h2>My Seller Account Information</h2>
+  <div id="show_seller_header_content" class="box_interior">  
+    <% if seller.nil? %>
+      <p>You have not registered to be a seller yet. Registering as a seller offers you several ways to sell both new and used homeschool products. It's safe, convenient and easy to do.</p>
+      <p class="bump_down">Best of all, it's FREE! Registering takes only 60 seconds; what are you waiting for?</p>
+      <p class="bump_down"><%= link_to "YES! I Want To Sell!", products_path, :class=> "green_button long" %> </p>
+    <% else %>
+      <p>Store Name: <%= h seller.name %>
+      <p>Email: <%= seller.email  %><br/>
+         Phone: <%= (seller.phone.blank?) ? "None on record." : seller.phone %></p>
+      <br/><%= (seller.preferred_payment_method == "paypal") ? "Deposit via PayPal" : "Mail Checks" %> To:
+      <% if seller.preferred_payment_method == "paypal" %> 
+      <%= seller.pay_pal_id %><br/>  
+           <p class="details bump_down">We do not have
+           access to any of your bank information: that is all kept secure by PayPal.</p>
+           <p class="bump_down details">There is a small fee charged by PayPal for 
+           use of this service.  For more information, visit <%= link_to "PayPal.com", "http://www.paypal.com" %>.</p>
+       <% else %>
+        <% if seller.address_line_1.blank? %>
+          <p>There is a problem with your address on record. Please edit this information to insure prompt payment.</p>
+        <% else %>
+         <p><%= seller.address_line_1 %><br/>
+            <%= "#{seller.address_line_2} <br/>" unless seller.address_line_2.blank?  %>
+           <%= seller.city  %>, <%= seller.state  %> <%= seller.zip %> <%= seller.country  %></p>
+        <% end %>
+      <% end %>
+      <div class="product_description clear_fix bump_down">
+      <h3>About <%= h seller.name %></h3>
+      <%= textilize(seller.description) %>
+      </div>
+    <% end %>
+  </div>
+</div>

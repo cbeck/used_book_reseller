@@ -1,0 +1,1 @@
+page[:share_browser].replace_html :partial => @partial, :locals => {:metro_area_name => @metro_area_name}

@@ -1,0 +1,16 @@
+<p class="details bump_down">All items are sold postage paid, which means you pay for all shipping costs. Please price your item accordingly. See tips below for more info.</p>
+<% path = "Application.popup('#{shipping_explanation_path}');" %>
+<p class="clear_fix"><%= "Estimated shipping weight: #{pluralize(@product.shipping_weight, "pound")}."%> <%= "USPS Media Mail shipping rates are estimated to be #{@media_mail.format}." if @media_mail %> <%= link_to_function "Learn more about shipping", "#{path}" %></p>
+<% sell_path = "Application.popup('#{selling_explanation_path}');" %> 
+<p class="clear_fix">
+  <%  if @product.suggested_transaction_fee %>
+    The credit card processing fees for this item will be <%= @product.suggested_transaction_fee.format %>. This amount will be deducted from the proceeds of your sale. <%= link_to_function "Tell me more", "#{sell_path}" %>
+  <% else %>
+    A small transaction fee will be deducted from the proceeds of the sale to cover our credit card processing costs. <%= link_to_function "Tell me more", "#{sell_path}" %>
+  <% end %>
+</p>
+<% unless @product.retail_price.zero? %>
+    <p class="really helpful clear_fix">The current list price for this item new is <%= @product.retail_price.format%>.
+      This price does NOT reflect shipping charges, so please keep that in mind when pricing your item.</p>
+  <% end %>        
+<p class="clear_fix"><strong><%= link_to_function "Common Questions About Selling", "#{sell_path}" %></strong></p>

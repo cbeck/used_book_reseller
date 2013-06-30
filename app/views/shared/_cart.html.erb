@@ -1,0 +1,5 @@
+<p id="cart_total_price"><%= @cart.sub_total.format %></p>
+<p id="cart_total_items" class="details"><%= pluralize @cart.item_count, "item" %> - ppd</p>
+<p class="details"><%= link_to 'View / Checkout', order_path(@cart) %></p>
+      
+          

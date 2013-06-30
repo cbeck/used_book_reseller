@@ -1,0 +1,24 @@
+<h1>Listing media_mails</h1>
+
+<table>
+  <tr>
+    <th>Weight</th>
+    <th>Rate cents</th>
+    <th>Currency</th>
+  </tr>
+
+<% for media_mail in @media_mails %>
+  <tr>
+    <td><%=h media_mail.weight %></td>
+    <td><%=h media_mail.rate_cents %></td>
+    <td><%=h media_mail.currency %></td>
+    <td><%= link_to 'Show', media_mail %></td>
+    <td><%= link_to 'Edit', edit_media_mail_path(media_mail) %></td>
+    <td><%= link_to 'Destroy', media_mail, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New media_mail', new_media_mail_path %>

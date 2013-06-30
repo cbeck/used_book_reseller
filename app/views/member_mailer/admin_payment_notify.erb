@@ -1,0 +1,11 @@
+A notification was received from Paypal
+
+Order #: <%=link_to @pn.order.id, order_url(@pn.order)%>
+<% unless @pn.order.member.blank? %>
+Member: <%=@pn.order.member.login%>, <%=@pn.order.member.name%>, <%=@pn.order.member.email%>
+<% else %>
+Member: Anonymous (Session <%= @pn.order.session_id %>)
+<% end %>
+Paypal Status: <%=@pn.status%>
+Order amount: <%=@pn.order.total_price %>
+Order status: <%=@pn.order.status%>

@@ -1,0 +1,38 @@
+<div id="show_images" class="box two_thirds_span left">
+  <h2>Upload An Image For <%= h @product.title %></h2>
+  <div id="show_images_content" class="box_interior form">
+    <% form_for [@product, @product_image], :html => {:multipart => true} do |f| %>
+    <p><label for="image_data">Choose An Image From My Computer</label><br/>
+          <%= f.file_field :image_file %></p>
+
+    <p><label for="image_data">Or Type (or paste) The Address Of An Image Already On The Internet</label><br/>
+        <%= f.text_field :image_file_url, :size => 40 %><br/>
+        <span class="details">http://mysite.com/images/my_image.jpg</span>
+    </p>
+
+     <p>Images on your computer or from the Internet can be in any of popular image formats.  Most cameras create images in .jpg format, which is perfect
+       for this.</p>
+       
+     <p><%= f.submit "Upload this Image" %></p>
+     <% end %>
+  </div>
+</div>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>Oops! Cancel This</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>
+
+<div id="show_images" class="box third_span right">
+  <h2>Helpful Hints</h2>
+  <div id="show_images_content" class="box_interior form">
+<p>Images larger than 640 pixels square will be resized automatically by our system.</p>
+
+<p>If you make a mistake or don't like the picture, relax! You can easily remove it.</p>
+  </div>
+</div>
+

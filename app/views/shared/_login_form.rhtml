@@ -1,0 +1,16 @@
+<% form_remote_tag :url => {:controller => "sessions", :action => "create"}, :update => 'login_area' do  %>
+<%="<div class='login_error'>#{flash[:error]}</div>" if flash[:error]%>
+
+<p><label for="login">Login</label><br/>
+<%= text_field_tag 'login', nil, :size => 10 %></p>
+
+<p><label for="password">Password</label><br/>
+<%= password_field_tag 'password', nil, :size => 10 %></p>
+
+<p><label for="remember_me">Remember me:</label>
+<%= check_box_tag 'remember_me' %></p>
+
+<p><%= submit_tag 'Log in' %></p>
+<% end %>
+
+<p>No account?  <%= link_to 'Create one', new_member_path %></p>

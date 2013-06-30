@@ -1,0 +1,14 @@
+<h3>Edit Payment Type</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", [:admin, @payment_type] %></p>
+
+<% form_for [:admin, @payment_type] do |f| %>
+    <%= error_messages_for :payment_type %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update Payment Type" %>
+  </div>
+  
+ 
+<% end %>

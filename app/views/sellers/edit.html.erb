@@ -1,0 +1,79 @@
+<div id="seller_form" class="box two_thirds_span left">
+  <h2>Update Your Seller Information</h2>
+  <div id="seller_form_content" class="box_interior form">
+    <% form_for [current_member, current_member.seller] do |f| %>
+        <%= error_messages_for :seller %>
+
+        <%= render :partial => "form", :object => f %>
+        
+        <h3><%= f.label :preferred_payment_method, "How Would You Like Us To Pay You?" %> <span class="emphasized">*</span></h3>
+        <p>Unlike other online selling services, your PayPal or address information is NEVER shared with the buyer. When your 
+          product is sold, we collect the money via our PayPal account, and then use the method below to pay you once you ship 
+          your item. This allows us to protect both parties, and insures your privacy.</p>
+          <p><strong>When I ship my sold item, Homeschool Apple should...</strong></p>
+          <p>
+            <%= f.radio_button(:preferred_payment_method, "mail", {:onclick => "Application.choose_checks()"}) %> Mail Me A Check<br/>
+            <%= f.radio_button(:preferred_payment_method, "paypal", {:onclick => "Application.choose_paypal()"})%> Deposit Into My Paypal Account</p>  
+            
+             <% 
+               address_style = "display:none;"
+               paypal_style = "display:none;"
+               unless current_member.seller.preferred_payment_method.blank?
+                 (current_member.seller.preferred_payment_method == "paypal") ? paypal_style = "" : address_style = ""
+               end           
+              %>
+            <div id="seller_address" style="<%=address_style%>">    
+              
+            <p><label for="seller_address_line_1">Name on Check</label><br/>
+                <%= f.text_field :name_on_check  %></p>
+
+            <p><label for="seller_address_line_1">Address Line 1</label><br/>
+                <%= f.text_field :address_line_1  %></p>
+
+            <p><label for="seller_address_line_2">Address Line 2</label><br/>
+                <%= f.text_field :address_line_2  %></p>
+
+            <p><label for="seller_city">City</label><br/>
+                <%= f.text_field :city  %></p>
+
+            <p><label for="seller_state">State</label><br/>
+              <%# state_select(object, method, country='US', options = {}, html_options = {})%>
+              <%= f.us_state_select :state, :show => :full_abb %>
+              <%#= form.state_select(:state, country='US' )%>
+                <%#= form.text_field :state  %></p>
+
+            <p><label for="seller_zip">Zip or Postal Code</label><br/>
+                <%= f.text_field :zip  %></p>
+
+            <p><label for="seller_country">Country</label><br/>
+                <%= f.text_field :country  %></p>
+            </div>
+
+            <div id="seller_paypal" style="<%=paypal_style%>">
+
+            <p><label for="seller_pay_pal_id">PayPal Account Email Address</label><br/>
+                <%= f.text_field :pay_pal_id %></p>
+                <p>Want to use PayPal but don't have an account? <%= link_to "Sign up here", "http://www.paypal.com", :target => "_new" %>. We'll even open this link in a new window so you don't lose your place.</p>
+                <p class="details">We do not have access to any of your bank information: that is all kept secure by PayPal. There is a small fee charged by PayPal for 
+                    use of this service.  For more information, visit <%= link_to "PayPal.com", "http://www.paypal.com" %>.</p>
+            </div>
+            <%= f.hidden_field :accepted_terms %>
+
+            <p><%= submit_tag "Save My Info", :id => "submit_button" %></p> 
+            <p class="emphasized">* Required</p>
+            <p class="details">Your information is safe with us.  We will never sell your email address to any third-parties.</p>
+
+
+    <% end %>
+  </div>
+</div>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>Oops! Cancel This</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>
+

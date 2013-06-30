@@ -1,0 +1,30 @@
+<h3>Item Formats</h3>
+<p class="form_link"><%= link_to "I want to add a new item format", new_admin_item_format_url %></p>
+
+
+<div class="user_form">
+  <div class="form_left">
+    <% if @item_formats.empty? %>
+        <p>There are no item formats on Schoolade thus far.</p>
+      <% else %>  
+        <ul id="item_formats" class="listing">  
+          <%= render :partial => "item_format", :collection => @item_formats %> 
+        </ul>
+      <% end %>
+
+</div>
+
+<div class="form_right helpful">
+  
+  <p>Item formats are used to classify the products people sell.</p>
+  
+
+</div>
+
+<div class="clear_fix"></div>
+
+</div>
+
+<%= sortable_element 'item_formats',
+{:url => sort_admin_item_formats_path, :method => :post}
+%>

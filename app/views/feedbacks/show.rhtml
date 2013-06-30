@@ -1,0 +1,12 @@
+<h3>Thanks for Leaving Feedback!</h3>
+<p class="form_link"><%= link_to "Oops! I want to edit this feedback", edit_feedback_path(@feedback) %></p>
+<p>Thank you for helping others have the best shopping experience by rating the seller of your product. We at Homeschool Apple, as well as the seller, appreciate your input!</p>
+
+<div class="spiffy_form">  
+<h4>You Said...</h4>
+<p>This seller gets a rating of <%= @feedback.rating %> out of 5.</p>
+<p><%= @feedback.comment %></p>
+</div>
+
+<p><%= link_to "Go back to this Order", order_url(@feedback.line_item.order)%></p>
+ 

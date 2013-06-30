@@ -1,0 +1,18 @@
+<h1>Listing forum_groups</h1>
+
+<table>
+  <tr>
+  </tr>
+  
+<% for forum_group in @forum_groups %>
+  <tr>
+    <td><%= link_to 'Show', forum_group_path(forum_group) %></td>
+    <td><%= link_to 'Edit', edit_forum_group_path(forum_group) %></td>
+    <td><%= link_to 'Destroy', forum_group_path(forum_group), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New forum_group', new_forum_group_path %>

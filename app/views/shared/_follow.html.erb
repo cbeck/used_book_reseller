@@ -1,0 +1,5 @@
+<% if current_member.followings.include? member %>
+<%= link_to_remote("Unfollow", :url => {:controller => "members", :action => :unfollow, :id => member}, :update => "follow_#{dom_id(member)}" )%>
+<% else %>
+<%= link_to_remote("Follow", :url => {:controller => "members", :action => :follow, :id => member}, :update => "follow_#{dom_id(member)}") %>
+<% end %>

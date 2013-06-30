@@ -1,0 +1,3 @@
+@product_image.operate do |image|
+  image.resize '110x110'
+end

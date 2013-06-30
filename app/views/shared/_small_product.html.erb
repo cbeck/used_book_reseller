@@ -1,0 +1,4 @@
+<% product ||= small_product %>
+<div id="<%= dom_id(product)%>">
+  <%= render :partial => "shared/small_product_listing", :locals => {:product => product}%>
+</div>

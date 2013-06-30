@@ -1,0 +1,14 @@
+<h3>Our Members</h3>
+
+<% if @members.empty? %>
+        <p>No one has joined HSA thus far.</p>
+      <% else %>  
+      <p><%= @members.size %> Members</p>
+        <ul class="listing">  
+          <%= render :partial => "member", :collection => @members %> 
+        </ul>
+      <% end %>
+
+
+<p class="bump_down">We care about our members. Please don't flog them.</p>
+  

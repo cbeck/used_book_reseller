@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+rails_book_order_1:
+  id: 1
+  product_id: 1
+  order_id: 1
+  quantity: 2
+  total_price: 2468
+ruby_book_order_1:
+  id: 2
+  product_id: 2
+  order_id: 1
+  quantity: 1
+  total_price: 2345
+ruby_book_order_2:
+  id: 3
+  product_id: 2
+  order_id: 2
+  quantity: 1
+  total_price: 2345 

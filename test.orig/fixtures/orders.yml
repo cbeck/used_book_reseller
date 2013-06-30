@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+ruby_book_order:
+ id: 1
+ name: Bob Jones
+ address_line_1: 123 Easy St.
+ email: cbeck@froggydog.com
+ pay_type: cc
+ user_id: 2
+ 
+rails_book_order:
+ id: 2
+ name: Bingo Hoodywhatz
+ address_line_1: 123 Hard St.
+ email: cbeck@chickendog.com
+ pay_type: check
+ user_id: 1
+ 

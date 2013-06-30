@@ -1,0 +1,5 @@
+page.select('div#notice' ).each { |div| div.hide }
+page[:login_area].replace_html :partial => 'shared/logged_in'
+page[:login_area].visual_effect :highlight,
+    :startcolor => "#FAF997" ,
+    :endcolor => "#E0EEB5"

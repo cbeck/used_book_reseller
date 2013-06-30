@@ -1,0 +1,9 @@
+<div class="spiffy_form form_left">
+<h4>Leaving Feedback for <%= @line_item.product.seller.name %></h4>
+<% form.custom :label => "Rating (5 is excellent)", :for => "feedback_rating" do |f| %>
+<%= error_messages_for :feedback %>
+  <%= select :feedback, :rating, ["5", "4", "3", "2", "1"] %>
+<% end %>
+<%= form.text_area :comment %>
+<%= hidden_field_tag :line_item_id, @line_item.id%>
+</div>

@@ -1,0 +1,13 @@
+<% 
+  if @product.use_amazon_image_as_default?
+    text =  "Replace with My Image" 
+    using = "the Suggested Image" 
+  else 
+    text = "Use Suggested Image" 
+    using = "Your Image"
+  end
+%>
+<p class="bump_down emphasized big_text">
+You are using <%= using %>.
+</p>
+<p> <%= link_to_remote text, :url => toggle_default_image_product_path(@product), :html => {:class => "green_button super_long"} %></p>

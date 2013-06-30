@@ -1,0 +1,23 @@
+<h1>New media_mail</h1>
+
+<% form_for(@media_mail) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :weight %><br />
+    <%= f.text_field :weight %>
+  </p>
+  <p>
+    <%= f.label :rate_cents %><br />
+    <%= f.text_field :rate_cents %>
+  </p>
+  <p>
+    <%= f.label :currency %><br />
+    <%= f.text_field :currency %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', media_mails_path %>

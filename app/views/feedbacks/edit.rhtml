@@ -1,0 +1,17 @@
+<h3>Edit Seller Feedback</h3>
+<p class="form_link"><%= link_to "I changed my mind - leave the feedback as is.", order_url(@feedback.line_item.order) %></p>
+<p>Help others have the best shopping experience by rating the seller of your product. Please be as fair and accurate as possible. If you had a great experience,
+  make sure you help the seller out by letting us know here!</p>
+  
+
+<% uberform_for @feedback do |f| %>
+    <%= error_messages_for :feedback %>
+
+    <%= render :partial => "form", :object => f %>
+  <br/>
+  <div class="form_submit clear_fix">
+  <%= submit_tag "Replace Feedback" %>
+  </div>
+  
+ 
+<% end %>

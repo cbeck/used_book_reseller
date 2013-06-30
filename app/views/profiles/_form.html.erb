@@ -1,0 +1,32 @@
+<div class="spiffy_form form_left">
+<h4>About You</h4>
+<%= form.text_field :name %>
+<%= form.text_field :city %>
+<%= form.text_field :state %>
+<%= form.text_field :zip %>
+<%= form.text_field :gender %>
+<%= form.text_field :birth_month %>
+<%= form.text_field :birth_day %>
+<%= form.text_field :blog_url %>
+<%= form.text_field :flickr_url %>
+<%= form.text_field :you_tube_url %>
+<%= form.text_field :twitter_url %>
+</div>
+<div class="form_left">
+<h4>About Your Homeschool</h4>
+<%= form.text_field :educational_philosophy %>
+<%= form.text_field :curriculum %>
+<%= form.text_field :primary_motivation %>
+<%= form.text_field :strengths %>
+<%= form.text_field :primary_teacher %>
+<%= form.text_field :current_grade_levels %>
+</div>
+<div class="form_left">
+<h4>About Your Family</h4>
+<%= form.text_field :number_of_children %>
+<%= form.text_field :ages_of_children %>
+<%= form.text_field :genders_of_children %>
+<%= form.text_field :description %>
+</div>
+<h4>Publish Your Profile</h4>
+<%= form.check_box :active, :label => "Allow others to see my profile" %>  

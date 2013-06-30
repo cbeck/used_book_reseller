@@ -1,0 +1,3 @@
+@product_image.operate do |image|
+  image.resize '240x180'
+end

@@ -1,0 +1,50 @@
+<div id="tracking" class="box full_span red">
+  <h2>Tracking Information</h2>
+  <div id="tracking_content" class="box_interior"> 
+    <% if @line_item.tracking_number.blank? %>
+      <p>This item has not been shipped yet.</p>
+    <% else %>
+      <%= render :partial => "tracking"%>
+    <% end %>   
+  </div>
+</div>
+
+<div id="feedback" class="box full_span green_gray">
+  <h2>Feedback</h2>
+  <div id="feedback_content" class="box_interior"> 
+    <% if @line_item.has_feedback? %>
+        <%= render :partial => "feedback", :object => @line_item.feedback %>
+    <% else %>
+        <%= render :partial => "feedback_form", :locals => {:feedback => Feedback.new }%>
+    <% end %>  
+  </div>
+</div>
+
+<div id="detail_header" class="box box two_thirds_span left">
+  <h2><%= h @line_item.product.title %></h2>
+  <div id="detail_header_content" class="box_interior">
+    <%= render :partial => "products/basic_info", :locals => {:show => true, :product => @line_item.product} %>
+   
+    <h3>How Much Did You Pay?:</h3>
+    <p>Total Price: <%= @line_item.total_price.format  %></p>
+    <p>Quantity Bought: <%= @line_item.quantity  %></p>
+  </div>
+</div>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>All Done!</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div> 
+
+<%= render :partial => "products/seller", :object => @line_item.product.seller %>
+
+<%= render :partial => "products/product_images", :locals => {:product => @line_item.product} %>
+
+
+        
+  
+    

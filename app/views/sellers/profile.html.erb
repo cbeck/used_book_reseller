@@ -1,0 +1,53 @@
+<div id="show_seller_header" class="box full_span">
+  <h2><%= h @seller.name %></h2>
+  <div id="show_seller_header_content" class="box_interior"> 
+    <div class="product_description">
+      <% if @seller.description.blank? %>
+        <p><%= h @seller.name%> is a Trusted Seller on Homeschool Apple.</p>
+      <% else %>
+        <%= textilize(@seller.description) %>
+      <% end %>
+    </div>      
+  </div>
+</div>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>All Done!</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>
+
+<div id="seller_feedback" class="box two_thirds_span left">
+  <h2>Seller Feedback</h2>
+  <div id="seller_feedback_content" class="box_interior">
+    <% if @seller.feedback.empty? %>
+        <p>There has been no feedback for this seller as of yet.</p>
+      <% else %>
+        <p>This seller has an average Feedback Rating of <%= @seller.feedback_rating %> out of 5.</p>
+        <p class="clear_fix text_right bump_down"><%= link_to "see all (coming soon)", "#" %></p>
+      <% end %>
+  </div>
+</div>
+
+<div id="shop_products" class="box full_span">
+  <div id="filters">
+    by <%=link_to 'latest', profile_seller_path(@seller, :filter => 'id'), :class => "#{'selected' if @filter.blank? || @filter == 'id'}"%>
+  	<%=link_to 'title', profile_seller_path(@seller, :filter => 'title'), :class => "#{'selected' if @filter == 'title'}"%>
+  	<%=link_to 'price', profile_seller_path(@seller, :filter => 'offer_cents'), :class => "#{'selected' if @filter == 'offer_cents'}"%>
+  </div>
+  <h2>More Products From <%= h @seller.name %></h2>
+  <div id="shop_products_content" class="box_interior">
+    <% if @products.empty? %>
+     <p>This seller has no products currently available.</p>
+    <% else %>
+      <table>
+        <%= render :partial => "shared/product", :collection =>  @products %>
+      </table>
+			<%= will_paginate @products %>
+    <% end %>
+  </div>
+</div>
+

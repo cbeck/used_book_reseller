@@ -1,0 +1,24 @@
+<h1>Editing condition</h1>
+
+<% form_for(@condition) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :requires_comment %><br />
+    <%= f.check_box :requires_comment %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @condition %> |
+<%= link_to 'Back', conditions_path %>

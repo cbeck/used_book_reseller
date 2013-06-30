@@ -1,0 +1,22 @@
+<%= render :partial => "categories_block"%>
+
+<div id="shop_products" class="box full_span">
+  <div id="filters">
+    by <%=link_to 'latest', categories_path(:filter => 'id'), :class => "#{'selected' if @filter.blank? || @filter == 'id'}"%>
+  	<%=link_to 'title', categories_path(:filter => 'title'), :class => "#{'selected' if @filter == 'title'}"%>
+  	<%=link_to 'price', categories_path(:filter => 'offer_cents'), :class => "#{'selected' if @filter == 'offer_cents'}"%>
+  </div>
+  <h2>Have You Seen These?</h2>
+  <div id="shop_products_content" class="box_interior">
+    <% if @products.empty? %>
+     <p>Be the first to <%= link_to "sell your homeschool curriculum or product", new_product_path %></p>
+    <% else %>
+    <p class="emphasized smaller">* All products are sold postage paid (shipping is FREE!)</p>
+     <table class="clear_fix">
+        <%= render :partial => "shared/product", :collection =>  @products %>
+      </table>
+			<%= will_paginate @products %>
+    <% end %>
+  </div>
+</div>
+

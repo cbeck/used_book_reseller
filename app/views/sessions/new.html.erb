@@ -1,0 +1,44 @@
+<div id="signup_link" class="box two_thirds_span green center_block">
+  <h2>Please Log In to Your Account...</h2>
+  <div id="signup_link_content" class="box_interior">
+   <% form_tag sessions_path, :id => 'login_form' do %>
+        <% unless @hide_message || @logged_out %><p><span class="emphasized">Wait! Don't go anywhere!</span> The feature you are trying to get to is for our valued members. But fear not! You can login below and we'll take you right where you wanted to go.</p><% end %>
+        <p class="bump_down"><%= label :session, :login, "Your Login or Email" %><br/>
+        <%= text_field_tag :login %></p>
+
+        <p class="bump_down"><%= label :session, :password, "Password" %><br/>
+        <%= password_field_tag 'password' %></p>
+         <% unless @order_id.blank? %>
+              <%= hidden_field_tag :order_id, @order_id %>
+          <% end %>
+        <p class="bump_down"><%= submit_tag "Login" %></p>
+
+        <p id="forgot_password" class="bump_down">
+    			<%=link_to 'Forgot your password?', forgot_password_path %>
+    		</p>
+
+      <% end %>
+    <% unless @logged_out %>
+    <p><%= link_to "No account yet? Sign Up!", signup_path %> It's <span class="emphasized">FREE</span>, takes less than 30 seconds, and we won't even spam you ;)</p>
+    <% else %>
+    <p>We look forward to seeing you again soon!</p>
+    <% end %>
+     
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

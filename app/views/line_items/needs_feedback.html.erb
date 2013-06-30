@@ -1,0 +1,13 @@
+<div id="ordered_items" class="box full_span">
+  <h2>Items Requiring Your Feedback</h2>
+  <div id="ordered_items_content" class="box_interior space_out">
+    <% if @line_items.empty? %>
+     <p>You have left feedback on all of your items that require it. Thank you!</p>
+     <p>Feedback allows our members to rate their shopping experience with our sellers.</p><p>Not a member? <%= link_to "Join today!", signup_path %>
+    <% else %>
+      <table>
+        <%= render :partial => "orders/line_item", :collection => @line_items %>
+      </table>
+    <% end %>    
+  </div>
+</div>

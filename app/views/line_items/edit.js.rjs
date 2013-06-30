@@ -1,0 +1,2 @@
+page[:tracking_content].replace_html :partial => 'tracking_form'
+page[:tracking_content].visual_effect :highlight

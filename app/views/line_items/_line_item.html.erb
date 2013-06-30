@@ -1,0 +1,26 @@
+<tr id="<%= dom_id(line_item) -%>" class="row_item <%= cycle("odd", "even")-%>">
+  <td>  
+  <%= link_to(image_tag(line_item.product.image_url, :class => "thumb product", :title => "#{h(line_item.product.title)}"), buyer_line_item_path(line_item))%>
+  </td>
+  <td>    
+    <p class="title"><%= link_to(h(line_item.product.title), line_item_path(line_item)) %></p>
+    <p class="details"><%= "Sold on #{line_item.order.created_at}" %>, Order Reference #: <%= "#{line_item.order.id}-#{line_item.id}" %></p>
+    <p class="description">
+      <% if line_item.order.name.blank? %>
+      We have no shipping information for this item. Please contact <%= mail_to APP_CONFIG[:admin_email], "customer service", :encode => "hex", :subject => "Help! #{line_item.order.id}-#{line_item.id} has no shipping information!"  %> for assistance.
+      <% else %>
+        <%= (line_item.buyer_paid?) ? "Ship to:" : "Shipped to:"%> <%=line_item.order.name %><br/>
+        <%= line_item.order.address_line_1 %><br/>
+        <%= "#{line_item.order.address_line_2}<br/>" unless line_item.order.address_line_2.blank? %>
+        <%= line_item.order.city %>, <%= line_item.order.state %> <%= line_item.order.zip %> <%= "#{line_item.order.country}<br/>" unless line_item.order.country.blank? or line_item.order.country == "US" %>
+      <% end %>
+    </p>
+ </td>
+  <td>
+    <p class="product_price"><%= line_item.total_price.format %></p>
+    <p class="details button"><%= line_item.quantity %> sold</p>
+  </td>
+</tr>
+
+
+

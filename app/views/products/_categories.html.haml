@@ -1,0 +1,7 @@
+Product Categories (select all that apply)
+%ul
+  - Category.find(:all, :order => "name ASC").each do |c| 
+    %li.none
+      = check_box_tag("product[category_ids][]", c.id, @product.categories.include?(c))
+      = c.name
+

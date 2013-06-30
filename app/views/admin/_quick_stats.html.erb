@@ -1,0 +1,22 @@
+<div id="quick_stats" style="float: right">
+	<h3>Quick Stats</h3>
+	<table>
+		<tr>
+			<th></th>
+			<th>today</th>
+			<th>last 7 days</th>
+			<th>last 30 days</th>
+			<th>total</th>
+		</tr>
+		<% [Member,Product,Order.purchased,Freecycle,Feedback].each do |model| %>
+		<tr>
+			<th><%=model.class_name.to_s.pluralize%></th>
+			<td><%=model.count_since 1.day.ago %></td>
+			<td><%=model.count_since 7.days.ago %></td>
+			<td><%=model.count_since 30.days.ago %></td>
+			<td><%=model.count %></td>
+		</tr>
+		<% end %>
+	</table>
+			
+</div>

@@ -1,0 +1,25 @@
+<h3>Basic Seller Info</h3>
+<p><label for="seller_name">Name You Will Be Selling Under</label> <span class="emphasized">*</span><br/>
+    <%= form.text_field :name  %></p>
+<p><label for="seller_email">Email Address for Sale Notifications</label> <span class="emphasized">*</span><br/>
+    <%= form.text_field :email  %></p>
+<p><label for="seller_phone">Phone Number (Optional)</label><br/>
+    <%= form.text_field :phone  %></p>
+
+<p>
+  <% path = "Application.popup('#{textile_explanation_path}');" %>
+   <%= link_to_function "Formatting Help", "#{path}", :class=> "details right" %>
+   <%= form.label :description, "Tell Us About Your Store" %><br/>
+  <%= form.text_area :description, :cols => 33 %>
+</p>
+
+<h3>Shipping Your Products</h3>
+<p>Select the timeframe in which you agree to ship a product once sold. If you are unable to ship the product during this period, your sale may be cancelled, at the buyer's discretion.</p>
+<p>
+  <%= form.label :shipping_term, "Typical Time Required To Ship" %><br/>
+  <%= form.collection_select :shipping_term_id, ShippingTerm.all, :id, :name %><br/>      
+</p>
+
+
+  
+ 

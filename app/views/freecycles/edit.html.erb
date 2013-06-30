@@ -1,0 +1,34 @@
+<% form_for(@freecycle) do |f| %>
+<div id="freecycle_header" class="box two_thirds_span left">
+  <h2>Edit This Freecycle</h2>
+  <div id="freecycle_header_content" class="box_interior form">
+      <%= f.error_messages %>  
+      <%= render :partial => "form", :object => f %>
+      <% display_style = "display:none;" if @freecycle.metro_area.nil? %>      
+      <div id="metro_area_assignment" style="<%= display_style%>">
+      <p><%= f.label :metro_area, "Assigned Metro Area"%>: 
+        <%=(@freecycle.metro_area.blank?) ? "None" :  @freecycle.metro_area.name %><br/>
+        <%= link_to_function("Change", "$('msa').show()")%>
+      </p>
+      </div>
+      <div id="msa" style="display:none;">
+      <p>
+        <%= f.label :metro_area, "Metro Area"%><br />
+        <%= text_field_with_auto_complete :metro_area, :name, disable_enter_key %>
+      </p>
+      </div>
+      <p>
+        <%= f.submit "Update" %>
+      </p>
+  </div>  
+</div>
+<% end %>
+
+<div id="sell_actions" class="box green third_span right">
+  <h2>Oops! Cancel This</h2>
+  <div id="sell_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "Go Back", :back, :class => "green_button long" %></li>
+    </ul>    
+  </div>
+</div>

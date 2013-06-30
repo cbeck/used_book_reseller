@@ -1,0 +1,13 @@
+<h3>Edit My Seller Information</h3>
+<p class="form_link"><%= link_to "Oops... I don't want to edit this after all", member_seller_path(current_member, @seller) %></p>
+<% form_for [current_member, current_member.seller] do |f| %>
+    <%= error_messages_for :seller %>
+
+    <%= render :partial => "form", :object => f %>
+
+  <div class="form_submit">
+  <%= submit_tag "Update My Seller Information" %>
+  </div>
+  
+ 
+<% end %>

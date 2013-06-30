@@ -1,0 +1,32 @@
+<%= render :partial => "search_block"%>
+
+<div id="share_freecycle" class="box two_thirds_span left">
+  <div id="filters">
+    by <%=link_to 'latest', path_with_filter("id"), :class => "#{'selected' if @filter == 'id'}"%>
+    	<%=link_to 'title', path_with_filter("name"), :class => "#{'selected' if @filter == 'name'}"%>
+    	<%=link_to 'metro', path_with_filter("metro_area_id"), :class => "#{'selected' if @filter == 'metro_area_id'}"%>
+  </div>
+  <h2>Freecycle!</h2>
+  <div id="share_freecycle_content" class="box_interior">
+    <% if @freecycles.empty? %>
+     <p>Be the first to <%= link_to "share something you no longer need for free", new_freecycle_path %>.</p>
+    <% else %>
+      <table class="clear_fix full">
+        <%= render :partial => @freecycles %>
+      </table>
+			<%= will_paginate @freecycles %>
+    <% end %>
+  </div>
+</div>
+
+<div id="show_actions" class="box green third_span right">
+  <h2>Freecycle Menu</h2>
+  <div id="show_actions_content" class="box_interior">
+    <ul>
+      <li><%= link_to "List A Freecycle", new_freecycle_path, :class => "green_button long" %></li>  
+      <li class="bump_down"><%= link_to('Manage My Freecycles', manage_freecycles_path) unless !logged_in? || current_member.freecycles.blank? %></li>
+    </ul>    
+  </div>
+</div>
+
+

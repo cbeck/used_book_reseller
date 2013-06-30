@@ -1,0 +1,37 @@
+<div id="member_form" class="box green half_span left">
+  <h2>Become A Valued Member</h2>
+  <div id="member_form_content" class="box_interior form">
+    <% form_for @member do |f| %>
+      <%= error_messages_for :member %>
+      <%= render :partial => "form", :object => f %>
+      <% unless @order_id.blank? %>
+            <%= hidden_field_tag :order_id, @order_id %>
+      <% end %>
+      <p><%= submit_tag "Yes! Register Me" %></p>      
+
+    <% end %>
+    <p class="details">Your information is safe with us.  We will never sell your email address to any third-parties.</p>
+  </div>
+</div>
+
+<div id="info_text" class="box half_span right">
+  <h2>Not Sure?</h2>
+  <div id="info_text_content" class="box_interior space_out">
+    <p>Creating a new account on Homeschool Apple is a snap!</p><p>Simply fill in the information to the left and you will be able to immediately
+      take advantage of everything we have to offer including: selling your homeschool items; posting to the forum; and leaving reviews
+      of the curriculum you love for everyone to enjoy.*</p></p>And best of all, registration is free!</p>
+    <p class="details bump_down">* some features coming soon!</p>
+  </div>
+</div>
+
+<div id="registered" class="box half_span right">
+  <h2>Already Registered?</h2>
+  <div id="registered_content" class="box_interior">
+    <p>If you already have an account with us, <%= link_to "go here", login_path(:nav => true) %>.</p>
+    <p class="bump_down">Forgot your password? No problem!<br/><%= link_to "Reset it here", forgot_password_path %>.</p>
+  </div>
+</div>
+
+
+
+
